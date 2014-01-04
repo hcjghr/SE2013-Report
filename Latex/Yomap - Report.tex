@@ -206,10 +206,25 @@ For better
 \chapter{Plan of implementation}
 After having the user requirements, we decided to make the global plan of implementation. Here we had to take into account, that we have to develop the application in C++ and Matlab. As show in the figure[] we have already splited  the project into four main parts. Because the user interface and map representations require completely different approaches in C++ and Matlab, we decided to split them into two parallel projects, one almost independent from another. On the other hand, we decided to use the same algorithms for both projects. The main reason was to minimize the redundancies in the research and development stage and minimize the possibility of errors. This way we could have the same algorithms for both, differing only in pure implementation details. \\
 \\ Each of was delegated to oversee one of the parts (as shown in figure []). We have to emphasis that this does not mean he/she developed that part by him/herself, not even that he is solely responsible for it. No matter the delegation, we all worked on all parts of the project, either in research, design or implementation stage.
-
-
-
+TODO: ADD IMAGE OF PARTS WITH DELEGATION
+\section{MAYBE TIME PLAN?}
+\chapter{Databases and data structure}
+Our application uses two main types of information. Static map data describing the streets and dynamic data about the different points of interest (POIs). The difference between static and dynamic data lies in the users ability to add and edit POIs data, while the map information is not meant to be changed by the user. \\
+\\ The acquisition of this data was not the essence of the project, so we were allowed to use any data source, with appropriate licence and collaborate with other groups. 
+\section{Map data}
+Acquisition of map data (street locations, street types, buildings etc.) can be extremely time consuming and can easily produce not really accurate results. At the same time, there is a lot of different open source data avaliable online. Together with the other groups we decided to use OpenStreetMap data by the OpenStreetMap Foundation[].\\
+\\
+OpenStreetMap is an opensource project providing free map information of the world. Data is published under the Open Database License (ODbL) from Open Data Commons (ODC), which enables us to freely produce the works from the database, modify, transform and build upon the database.
+\section{Data format}
+Openstreet maps uses four core elements:
+\begin{itemize}
+\item Nodes - are basic point of location. They consist of longitude and latitude information. They can be used as a single point (POI) or as a list of nodes (way);
+\item Ways - ordered list of nodes, representing a street, an area (lake, forest etc.);
+\item Relations - ordered list of nodes and ways which can be in a relation (many roads can be included in a long motorway);
+\item Tags - key-value pairs which are used to store information about different objects (nodes, ways, relations)
+\end{itemize}
 \chapter{Path algorithms}
+
 \section{Street data}
 What did we use...open street map...shot introduction into nodes, relations etc.
 \section{DB class structure}
