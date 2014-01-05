@@ -60,30 +60,24 @@
 
 \begin{titlepage}
 \begin{center}
-
 \textsc{\LARGE \univname}\\[1.5cm] % University name
-\textsc{\Large Doctoral Thesis}\\[0.5cm] % Thesis type
 
+    \vskip 2cm
 \HRule \\[0.4cm] % Horizontal line
 {\huge \bfseries \ttitle}\\[0.4cm] % Thesis title
 \HRule \\[1.5cm] % Horizontal line
  
-\begin{minipage}{0.4\textwidth}
-\begin{flushleft} \large
-\emph{Author:}\\
-\href{http://www.johnsmith.com}{\authornames} % Author name - remove the \href bracket to remove the link
-\end{flushleft}
-\end{minipage}
-\begin{minipage}{0.4\textwidth}
-\begin{flushright} \large
-\emph{Supervisor:} \\
-\href{http://www.jamessmith.com}{\supname} % Supervisor name - remove the \href bracket to remove the link  
-\end{flushright}
-\end{minipage}\\[3cm]
+
+    \vskip 5cm
+    \LARGE
+Oksana Hagen\\
+Natalia Shepeleva \\
+Emre Ozan Alkan\\
+Klemen Istenič
+
+
+    \vskip 3cm
  
-\large \textit{A thesis submitted in fulfilment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
-\textit{in the}\\[0.4cm]
-\groupname\\\deptname\\[2cm] % Research group name and department name
  
 {\large \today}\\[4cm] % Date
 %\includegraphics{Logo} % University/department logo - uncomment to place it
@@ -101,15 +95,12 @@
 %----------------------------------------------------------------------------------------
 
 \pagestyle{fancy} % The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
-
+\setcounter{tocdepth}{2}
 \lhead{\emph{Contents}} % Set the left side page header to "Contents"
 \tableofcontents % Write out the Table of Contents
 
 \lhead{\emph{List of Figures}} % Set the left side page header to "List of Figures"
 \listoffigures % Write out the List of Figures
-
-\lhead{\emph{List of Tables}} % Set the left side page header to "List of Tables"
-\listoftables % Write out the List of Tables
 
 
 
@@ -129,7 +120,7 @@
 \input{Chapters/Chapter3}
 \input{Chapters/Chapter4} 
 \input{Chapters/Chapter5} 
-%\input{Chapters/Chapter6} 
+\input{Chapters/Chapter6} 
 %\input{Chapters/Chapter7} 
 
 %----------------------------------------------------------------------------------------

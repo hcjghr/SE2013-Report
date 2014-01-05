@@ -182,15 +182,15 @@
 %	defined as \examname above so you cite it as \examname
 %----------------------------------------------------------------------------------------
 
-\thesistitle{Thesis Title} % Your thesis title - this is used in the title and abstract
+\thesistitle{Software Engineering Project \vskip 1cm 2013 - 2014} % Your thesis title - this is used in the title and abstract
 %-------------------------------------------------  
-\supervisor{Dr. James \textsc{Smith}} % You supervisor's name - this is used in the title page
+\supervisor{} % You supervisor's name - this is used in the title page
 %-------------------------------------------------   
 \examiner{} % Your examiner's name - this is not currently used anywhere in the template, cite it with \examname if you want it
 %-------------------------------------------------   
-\degree{Doctor of Philosophy} % Your degree name - this is currently used in the title page and abstract
+\degree{} % Your degree name - this is currently used in the title page and abstract
 %-------------------------------------------------   
-\authors{John \textsc{Smith}} % Your name - this is used in the title page and abstract
+\authors{Oksana \\ Ozan \\ Klemen \\ Natalia} % Your name - this is used in the title page and abstract
 %-------------------------------------------------   
 \addresses{} % Your address - this is not currently used anywhere in the template, cite it with \addressnames if you want it
 %-------------------------------------------------   
@@ -198,8 +198,8 @@
 %-------------------------------------------------   
 \keywords{} % Keywords for your thesis - this is not currently used anywhere in the template, cite it with \keywordnames if you want it
 %-------------------------------------------------   
-\university{\texorpdfstring{\href{http://www.university.com} % Your university's URL
-                {University Name}} % Your university's name - this is currently used in the title page
+\university{\texorpdfstring{% Your university's URL
+                {Masters in Computer Vision}} % Your university's name - this is currently used in the title page
                 {University Name}}
 %-------------------------------------------------   
 \UNIVERSITY{\texorpdfstring{\href{University Web Site URL Here (include http://)} % Your university's URL

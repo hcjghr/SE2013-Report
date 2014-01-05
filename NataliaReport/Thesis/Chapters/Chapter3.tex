@@ -1,0 +1,39 @@
+% Chapter 2
+
+\chapter{Initial planning} % Main chapter title
+
+\label{Chapter3} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+\lhead{Chapter 3. \emph{Initial planning}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+\section{User requirement analysis}
+\label{(user_req)}
+As mentioned in the previous chapter, we decided to use \textit{the iterative and incremental development model}. Before starting the iterations we spend quite a lot of time on the initial planning, with special attention to user and general project requirement analysis. From the project's instructions we were able to identify the following major user requirements and construct use case diagram (figure \ref{fig:gen_use_case_diag}):
+\begin{itemize}
+\item User should be able to enter start and end point either by:
+\begin{itemize}
+\item mouse click;
+\item specifying latitude and longitude;
+\item selecting a point of interest.
+\end{itemize}
+\item Find shortest path from point A to B (by foot or by car);
+\item Find the shortest way to all POIs of a certain category in a radius from point A (by foot or by car);
+\item Construct an itinerary from point A to B with visiting POIs in between (with max distance limit);
+\item View, edit and add POIs
+\end{itemize}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.95\linewidth]{../pictures/use_case_diagram_general}
+\caption{Use case diagram}
+\label{fig:gen_use_case_diag}
+\end{figure}
+
+\section{Plan of implementation}
+After having the user requirements, we decided to make the global plan of implementation. We took into account the fact that we have to develop the applications in \textbf{C++} and \textbf{Matlab}. As described in section \ref{Building blocks}, we have already split the project into four main parts. Because the user interface and map representations require completely different approaches in C++ and Matlab, we decided to split them into two parallel projects, one almost independent from another. On the other hand, we decided to use the same algorithms for both projects. The main reason is the minimization of the redundancies in the research and development stage and reducing the possibility of errors. This way we could have the same algorithms for both, differing only in pure implementation details.
+\par Each of was delegated to oversee one of the parts (as shown in figure []). We really want to emphasis that this does not mean each of us solely did that part or that is responsible for it. No matter the delegation, we all worked on all parts of the project, either in research, design or implementation stage, so the delegation was just for preparing the material for the meetings.
+
+\section{MAYBE TIME PLAN?}
+
+
