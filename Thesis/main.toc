@@ -4,18 +4,17 @@
 \contentsline {chapter}{\numberline {2}Project management}{2}{chapter.6}
 \contentsline {section}{\numberline {2.1}Basic building blocks}{3}{section.8}
 \contentsline {subsection}{\numberline {2.1.1}UI - User Interface}{3}{subsection.9}
-\contentsline {subsection}{\numberline {2.1.2}Database and data structure}{3}{subsection.10}
-\contentsline {subsection}{\numberline {2.1.3}Map representation}{3}{subsection.11}
-\contentsline {subsection}{\numberline {2.1.4}Path algorithms}{3}{subsection.12}
-\contentsline {section}{\numberline {2.2}Meetings and Project Progress}{4}{section.13}
-\contentsline {subsection}{\numberline {2.2.1}Analyzing the problem}{4}{subsection.14}
-\contentsline {subsection}{\numberline {2.2.2}Pre-implementation stage}{4}{subsection.15}
-\contentsline {subsection}{\numberline {2.2.3}Implementation}{4}{subsection.16}
-\contentsline {section}{\numberline {2.3}Software used for project management}{5}{section.17}
-\contentsline {chapter}{\numberline {3}Initial planning}{6}{chapter.18}
-\contentsline {section}{\numberline {3.1}User requirement analysis}{6}{section.19}
-\contentsline {section}{\numberline {3.2}Plan of implementation}{7}{section.21}
-\contentsline {section}{\numberline {3.3}MAYBE TIME PLAN?}{7}{section.22}
+\contentsline {subsection}{\numberline {2.1.2}Database and data structure}{3}{subsection.11}
+\contentsline {subsection}{\numberline {2.1.3}Map representation}{3}{subsection.12}
+\contentsline {subsection}{\numberline {2.1.4}Path algorithms}{4}{subsection.13}
+\contentsline {section}{\numberline {2.2}Meetings and Project Progress}{4}{section.14}
+\contentsline {subsection}{\numberline {2.2.1}Analyzing the problem}{4}{subsection.15}
+\contentsline {subsection}{\numberline {2.2.2}Pre-implementation stage}{4}{subsection.16}
+\contentsline {subsection}{\numberline {2.2.3}Implementation}{5}{subsection.17}
+\contentsline {section}{\numberline {2.3}Software used for project management}{5}{section.18}
+\contentsline {chapter}{\numberline {3}Initial planning}{6}{chapter.19}
+\contentsline {section}{\numberline {3.1}User requirement analysis}{6}{section.20}
+\contentsline {section}{\numberline {3.2}Plan of implementation}{7}{section.22}
 \contentsline {chapter}{\numberline {4}Data sources}{8}{chapter.23}
 \contentsline {section}{\numberline {4.1}Map data - OpenStreetMap}{8}{section.24}
 \contentsline {subsection}{\numberline {4.1.1}Data format}{8}{subsection.25}
@@ -46,22 +45,34 @@
 \contentsline {section}{\numberline {6.5}Itinerary search}{20}{section.60}
 \contentsline {subsection}{\numberline {6.5.1}Implementation in C++}{22}{subsection.62}
 \contentsline {subsection}{\numberline {6.5.2}Implementation in Matlab}{22}{subsection.64}
-\contentsline {chapter}{\numberline {7}Graphical user interface - GUI}{24}{chapter.66}
+\contentsline {chapter}{\numberline {7}Graphical User Interface - GUI}{24}{chapter.66}
 \contentsline {section}{\numberline {7.1}C++}{24}{section.67}
-\contentsline {section}{\numberline {7.2}Matlab}{24}{section.68}
-\contentsline {subsection}{\numberline {7.2.1}MATLAB GUI}{24}{subsection.69}
-\contentsline {subsubsection}{\numberline {7.2.1.1}Creating GUI with GUIDE Layout Editor}{24}{subsubsection.70}
-\contentsline {subsubsection}{\numberline {7.2.1.2}Map Layers Plotting}{26}{subsubsection.71}
-\contentsline {subsubsection}{\numberline {7.2.1.3}Mouse Click And Dots Plotting}{27}{subsubsection.72}
-\contentsline {chapter}{\numberline {8}C++ vs MATLAB}{29}{chapter.73}
-\contentsline {paragraph}{}{29}{section*.74}
-\contentsline {paragraph}{}{29}{section*.75}
-\contentsline {paragraph}{}{29}{section*.76}
-\contentsline {paragraph}{}{29}{section*.77}
-\contentsline {paragraph}{}{29}{section*.78}
-\contentsline {paragraph}{}{30}{section*.79}
-\contentsline {paragraph}{}{30}{section*.80}
+\contentsline {subsection}{\numberline {7.1.1}Framework choice}{24}{subsection.68}
+\contentsline {subsection}{\numberline {7.1.2}Basic elements of UI}{24}{subsection.69}
+\contentsline {subsection}{\numberline {7.1.3}Editing the POI database}{25}{subsection.72}
+\contentsline {section}{\numberline {7.2}Matlab}{25}{section.75}
+\contentsline {subsection}{\numberline {7.2.1}MATLAB GUI}{26}{subsection.76}
+\contentsline {subsubsection}{\numberline {7.2.1.1}Creating GUI with GUIDE Layout Editor}{26}{subsubsection.77}
+\contentsline {subsubsection}{\numberline {7.2.1.2}Map Layers Plotting}{30}{subsubsection.83}
+\contentsline {subsubsection}{\numberline {7.2.1.3}Mouse Click And Dots Plotting}{33}{subsubsection.88}
+\contentsline {chapter}{\numberline {8}C++ vs MATLAB}{36}{chapter.92}
+\contentsline {paragraph}{}{36}{section*.93}
+\contentsline {paragraph}{}{36}{section*.94}
+\contentsline {paragraph}{}{36}{section*.95}
+\contentsline {paragraph}{}{36}{section*.96}
+\contentsline {paragraph}{}{36}{section*.97}
+\contentsline {paragraph}{}{37}{section*.98}
+\contentsline {paragraph}{}{37}{section*.99}
+\contentsline {chapter}{\numberline {9}YoMap Matlab User Guide}{38}{chapter.100}
+\contentsline {section}{\numberline {9.1}Introduction}{38}{section.101}
+\contentsline {section}{\numberline {9.2}Getting Started}{38}{section.102}
+\contentsline {section}{\numberline {9.3}Data Entry}{39}{section.111}
+\contentsline {section}{\numberline {9.4}Layers Usage}{41}{section.118}
+\contentsline {section}{\numberline {9.5}Point of Interest Information}{41}{section.120}
+\contentsline {section}{\numberline {9.6}Shortest Path Search}{42}{section.122}
+\contentsline {section}{\numberline {9.7}Shortest Path Search With a Middle Point}{42}{section.125}
+\contentsline {section}{\numberline {9.8}Radius Search}{43}{section.127}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{31}{appendix.81}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{44}{appendix.129}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{32}{dummy.82}
+\contentsline {chapter}{Bibliography}{45}{dummy.130}

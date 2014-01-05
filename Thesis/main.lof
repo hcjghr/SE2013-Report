@@ -1,8 +1,9 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces An iterative development model (image taken from \cite {wiki1})\relax }}{2}{figure.caption.7}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Inital sketch of UI\relax }}{3}{figure.caption.10}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Use case diagram\relax }}{7}{figure.caption.20}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Use case diagram\relax }}{7}{figure.caption.21}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Representation of basic OSM elements (image taken from \cite {osm_2})\relax }}{9}{figure.caption.26}
 \addvspace {10\p@ }
@@ -20,5 +21,32 @@
 \contentsline {figure}{\numberline {6.9}{\ignorespaces Result of the itinerary search as seen by the user in C++\relax }}{23}{figure.caption.63}
 \contentsline {figure}{\numberline {6.10}{\ignorespaces Result of the itinerary search as seen by the user in Matlab\relax }}{23}{figure.caption.65}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces How much time does it take to drive from the train station to Condorcet?\relax }}{25}{figure.caption.70}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Can you provide an itinerary that is at most 5km long, that passes by a bakery, that starts in R\IeC {\'e}sidence Jean Moulin, and that ends in the R\IeC {\'e}sidence Acacia?\relax }}{26}{figure.caption.71}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Editing Existing POI\relax }}{27}{figure.caption.73}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Adding new POI\relax }}{27}{figure.caption.74}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Yomap GUI representation in GUIDE Layout Editor\relax }}{28}{figure.caption.78}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Yomap GUI\relax }}{29}{figure.caption.79}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Yomap GUI search panel\relax }}{30}{figure.caption.80}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Yomap GUI "swap" button\relax }}{30}{figure.caption.81}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Yomap GUI instruction panel\relax }}{31}{figure.caption.82}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Map layer\relax }}{31}{figure.caption.84}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Roads layer\relax }}{32}{figure.caption.85}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Way layer\relax }}{32}{figure.caption.86}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Category layer\relax }}{33}{figure.caption.87}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Mouse click\relax }}{33}{figure.caption.89}
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Out of range checking\relax }}{34}{figure.caption.90}
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Dots plotting algorithm\relax }}{35}{figure.caption.91}
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Yomap MATLAB GUI\relax }}{39}{figure.caption.110}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Search panel\relax }}{40}{figure.caption.115}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Enter data\relax }}{40}{figure.caption.116}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces The dot representation\relax }}{41}{figure.caption.117}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Layer panel\relax }}{41}{figure.caption.119}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Instruction panel\relax }}{42}{figure.caption.121}
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Instruction panel\relax }}{42}{figure.caption.123}
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Swap button\relax }}{42}{figure.caption.124}
+\contentsline {figure}{\numberline {9.9}{\ignorespaces Shortest Path Search With a Middle Point\relax }}{43}{figure.caption.126}
+\contentsline {figure}{\numberline {9.10}{\ignorespaces Radio search\relax }}{43}{figure.caption.128}
 \addvspace {10\p@ }
