@@ -1,0 +1,51 @@
+\contentsline {chapter}{Contents}{i}{dummy.1}
+\contentsline {chapter}{List of Figures}{iii}{dummy.3}
+\contentsline {chapter}{List of Tables}{iv}{dummy.5}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.7}
+\contentsline {chapter}{\numberline {2}Project management}{2}{chapter.8}
+\contentsline {section}{\numberline {2.1}Basic building blocks}{3}{section.10}
+\contentsline {subsection}{\numberline {2.1.1}UI - User Interface}{3}{subsection.11}
+\contentsline {subsection}{\numberline {2.1.2}Database and data structure}{3}{subsection.12}
+\contentsline {subsection}{\numberline {2.1.3}Map representation}{3}{subsection.13}
+\contentsline {subsection}{\numberline {2.1.4}Path algorithms}{3}{subsection.14}
+\contentsline {section}{\numberline {2.2}Softwares used for project management}{4}{section.15}
+\contentsline {section}{\numberline {2.3}Meetings}{4}{section.16}
+\contentsline {chapter}{\numberline {3}Initial planning}{5}{chapter.17}
+\contentsline {section}{\numberline {3.1}User requirement analysis}{5}{section.18}
+\contentsline {section}{\numberline {3.2}Plan of implementation}{6}{section.20}
+\contentsline {section}{\numberline {3.3}MAYBE TIME PLAN?}{6}{section.21}
+\contentsline {chapter}{\numberline {4}Data sources}{7}{chapter.22}
+\contentsline {section}{\numberline {4.1}Map data - OpenStreetMap}{7}{section.23}
+\contentsline {subsection}{\numberline {4.1.1}Data format}{7}{subsection.24}
+\contentsline {section}{\numberline {4.2}Points of Interest (POI)}{8}{section.26}
+\contentsline {chapter}{\numberline {5}Database and data structure}{9}{chapter.27}
+\contentsline {section}{\numberline {5.1}Database}{9}{section.28}
+\contentsline {subsection}{\numberline {5.1.1}Disadvantage}{10}{subsection.29}
+\contentsline {section}{\numberline {5.2}Data structure}{10}{section.30}
+\contentsline {subsubsection}{\numberline {5.2.0.1}Node class}{10}{subsubsection.32}
+\contentsline {subsubsection}{\numberline {5.2.0.2}Way class}{11}{subsubsection.33}
+\contentsline {subsubsection}{\numberline {5.2.0.3}Relation class}{11}{subsubsection.34}
+\contentsline {subsubsection}{\numberline {5.2.0.4}WaySegment class}{11}{subsubsection.35}
+\contentsline {subsubsection}{\numberline {5.2.0.5}Building class}{11}{subsubsection.36}
+\contentsline {subsubsection}{\numberline {5.2.0.6}PathSegment class}{11}{subsubsection.37}
+\contentsline {subsubsection}{\numberline {5.2.0.7}Path class}{11}{subsubsection.38}
+\contentsline {subsubsection}{\numberline {5.2.0.8}Database class}{12}{subsubsection.39}
+\contentsline {chapter}{\numberline {6}GUI}{13}{chapter.41}
+\contentsline {section}{\numberline {6.1}C++}{13}{section.42}
+\contentsline {section}{\numberline {6.2}Matlab}{13}{section.43}
+\contentsline {subsection}{\numberline {6.2.1}MATLAB GUI}{13}{subsection.44}
+\contentsline {subsubsection}{\numberline {6.2.1.1}Creating GUI with GUIDE Layout Editor}{13}{subsubsection.45}
+\contentsline {subsubsection}{\numberline {6.2.1.2}Map Layers Plotting}{15}{subsubsection.46}
+\contentsline {subsubsection}{\numberline {6.2.1.3}Mouse Click And Dots Plotting}{16}{subsubsection.47}
+\contentsline {chapter}{\numberline {7}C++ vs MATLAB}{18}{chapter.48}
+\contentsline {paragraph}{}{18}{section*.49}
+\contentsline {paragraph}{}{18}{section*.50}
+\contentsline {paragraph}{}{18}{section*.51}
+\contentsline {paragraph}{}{18}{section*.52}
+\contentsline {paragraph}{}{18}{section*.53}
+\contentsline {paragraph}{}{19}{section*.54}
+\contentsline {paragraph}{}{19}{section*.55}
+\vspace {2em}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{20}{appendix.56}
+\vspace {2em}
+\contentsline {chapter}{Bibliography}{21}{dummy.57}
