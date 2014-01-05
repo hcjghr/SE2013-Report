@@ -1,0 +1,111 @@
+% Chapter 8
+
+\chapter{Graphical user interface - GUI} % Main chapter title
+
+\label{Chapter7} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+\lhead{Chapter 7. \emph{GUI}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+
+\section{C++}
+	C++ Part
+\section{Matlab}
+	Graphical user interface is main connection link between user and the program. By the correctly representation of data in GUI user can get all information that he needs. That is why it is so important to implement user interface that from the one hand will be easily understandable by user, and on the another hand can represent all possibilities of the program. In this chapter we will represent GUI for C++ and Matlab part, discuss its main features and difficulties.
+	
+	\subsection{MATLAB GUI}
+	
+		\subsubsection{Creating GUI with GUIDE Layout Editor}
+			For creation GUI in MATLAB the GUIDE Layout Editor was used. It allows design graphically user interface and then generates code that corresponds to each element of the user interface. GUI can be consists of standard elements like axes, toggle buttons, push buttons, panels and others.\\
+			
+			Yomap MATLAB GUI is represented on figure 721 and consists from next elements:
+			\begin{itemize}
+				\item figure
+				\item axes
+				\item panels
+				\item textboxes
+				\item checkboxes
+				\item toggle buttons
+				\item push button
+				\item static text
+				\item pop-up menus
+			\end{itemize}
+			
+			Here will be " Figure 721 – Yomap GUI representation in GUIDE Layout Editor". Natalia will provide.\\
+			
+			The final result of GUI is represented on figure 722 and has such functionality: 
+			\begin{itemize}
+				\item Zooming map in
+				\item Zooming map out
+				\item Pan map
+				\item Plotting map layers
+				\item Picking points on map with mouse click
+				\item Choosing categories and points of interest by choosing from pop-up menu
+				\item Choosing categories and points of interest with mouse click
+				\item Enter name and address of the points of interest
+				\item Enter coordinates of the points of interest
+				\item Enable/disable middle point
+				\item Hide/show search panel
+				\item Show point of interest information
+				\item Swapping points
+				\item Choosing type of transport  
+			\end{itemize}
+			
+			Here will be "Figure 722 - Yomap GUI"\\
+			
+			For zooming in, zooming out and pan map standard MATLAB functions were used. For others features callback functions were used. 
+			User is allowed to enter name or coordinates of point of interest manually or with mouse click. In case of typing all information into text boxes it is verified and in case of error corresponding message is appear. If user prefers use mouse click coordinates are checking on being in range of the map.
+			Another feature of the Yomap GUI is hiding/showing search panel (figure 723). Because sizes of the map are not allowed to show map and search panel together on the screens with small resolutions we decided to hide a panel for better map representation. In case if button “Hide All” is pressed the search panel became invisible and panel with instructions moves to the bottom of graphic window to show the whole map. After pressing button again all panels appear back on their initial places. 
+			
+			Here will be "Figure 723 – Yomap GUI search panel"
+			
+			For user convenience button “swap” was implemented (figure 724). In case of the same type of point of interest representation after pressing button “swap” all information between two points changes.  
+			
+			Here will be "Figure 724 – Yomap GUI “swap” button"
+			
+			All possible information about points and way is represented in instruction panel (figure 725). 
+			
+			Here will be "Figure 725 – Yomap GUI instruction panel"
+			
+		\subsubsection{Map Layers Plotting}
+		Map by itself is complicated graphical structure that contains luck of information. That is why one of the biggest problems can appear in map representation is its overloading with information. So to prevent this and for user convenience we decide to use layers for plotting map. 
+		Each layer represents only one type of information. In our GUI we have 4 main layers:
+		\begin{itemize}
+			\item Map Layer
+			\item Roads Layer
+			\item Way Layer
+			\item Category Layer
+		\end{itemize}
+		
+		Map layer (figure 726) is a *.png image of map of Le Creusot that loads in the beginning of the program. 
+		
+		Here will be "Figure 726 – Map layer"
+		
+		Roads layer (figure 727) is a vector of location of nodes that we traverse in order to have way from point A to point B.
+		
+		Here will be "Figure 727 – Roads layer"
+		
+		Way layer (figure 728) is a vector that shows the shortest way from point A to point B.
+		
+		Here will be "Figure 728 – Way layer"
+		
+		Category layer (figure 729) is a representation of points of interest on the map.
+		
+		Here will be "Figure 729 – Category layer"
+		
+		Each layer can be shown either by itself either in a combination with others layers. Because MATLAB allows draw any graphics on each other in a row the function "map\_Show\_Result" was implemented. Any time if one of the layers buttons is pressed the function is called and conditions of all layers buttons are sent to it. Before any layer appeared function "prepareMap" is called. It allows preparing axes before drawing layers and after this depending on buttons value corresponding layer is drawn. Way layer can be drawn only in case if route between point A and B is found.
+		
+		\subsubsection{Mouse Click And Dots Plotting}
+		As was already mentioned user is allowed to pick any point on the map using mouse. To pick any point MATLAB functions "WindowButtonDownFcn" and "get(handles.mapDraw,'currentpoint')" are used. Result of these functions returns coordinates of the axes at the place where mouse button was pressed (figure 7210). 
+		
+		Here will be "Figure 7210 – Mouse click"
+		
+		In case if user chooses "show on map" as a point representation then he allows to take any point on the map even if "show category" button pressed. In case if "show category" button pressed but user choose "category search" or "search by enter" then he can pick only category points, otherwise point could not be plotting and data could not be saved. Any points that picked on the map are checked on being not out of range (figure 7211).
+		
+		Here will be "Figure 7211 – Out of range checking"
+		
+		Dots plotting after mouse click is the most difficult and "unstable" layer. The problem is in plotting dots for every point with saving map layers. We should always take into account how many points do we have, which of them are already plotted, which we need to plot and etc. 
+		To solve this problem we used flag and handle to each point. Flag allows us to check if point already plotted or not and handle is used for deleting/plotting dot. For plotting dots function "draw\_point" was implemented. 
+		To avoid problems with plotting points and layers algorithm that shown on figure 7212 was developed. It allows to draw any point on any layer independently.
+		
+		Here will be "Figure 7212 – Dots plotting algorithm"
