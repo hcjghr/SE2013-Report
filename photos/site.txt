@@ -1,0 +1,9 @@
+http://en.wikipedia.org/wiki/Shortest_path_problem
+
+http://ai-depot.com/BotNavigation/Path-AStar.html
+
+http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html
+
+http://notmagi.me/closest-point-on-line-aabb-and-obb-to-point/
+
+http://www.mathworks.fr/fr/help/matlab/matlab_prog/vectorization.html

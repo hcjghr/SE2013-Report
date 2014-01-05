@@ -315,9 +315,44 @@ From identified requests, we can see that all of our path finding problems are a
 All of the above algorithms encapsulate the result we need to find, but differing in how many unnecessary paths are also calculated. This subsequently mean longer calculation time, which we want to avoid. For this reasons we chose \textbf{A* path finding algorithm}.
 
 \section{A*}
+A* algorithm is one of the most popular path finding algorithms. Its ability to combine the benefits of Dijkstra's algorithm (favouring nodes close to the start node) and Best-First-Search algorithms (favouring nodes close to the target node) makes it efficient and accurate. 
+\subsection{Process}
+Algorithm works by traversing the graph node by node till it reaches the end node. At every step node with the lowest cost $(f(x))$ is selected. Calculation of the cost is what selected sets A* apart from other greedy best-first search algorithms. Cost is calculated as a weighted sum of:
+\begin{itemize}
+\item $g(n) - $\textit{exact cost} of the path from the starting point,
+\item $h(n) - $\textit{heuristic estimated cost}.
+\end{itemize}
+Heuristics are used to control the A*'s behaviour. If $h(n)=0$ only distance from the start matters and we have 
+normal Dijkstra algorithm. Because we do not know distance from node to end target, as we haven't traversed it yet, we have to estimate it. It is important not to overestimate the distance, as this can cause the algorithm to not found the shortest path. We decided to use air distance as a heuristic, as this guarantees that the actual distance will be equal or greater than that, so we never over-estimate it.
 
+\section{Road snapping}
+As described in the previous section A* algorithm enables us to find the shortest path between two nodes in a graph. This enforces the restriction of searching only on the locations of the nodes. This is a huge limitation, as on some parts of the map users point can be located far away from the closest node. To overcome this restriction we implemented \textbf{a road snapping function}.\\
 
+Road snapping function finds the segment on which the perpendicular projection of user's point is closest to the user's point itself. Calculation of the perpendicular projection of a point on the segment is done using vectors and dot product between them. Algorithm used is described on website[]. It is worth mentioning that if the perpendicular projection of the point is outside of the interval between both nodes, it snaps to the border node. This can be seen on figure\ref{fig:db_snap} (left and right).
 
+ \begin{figure}[h]
+ \centering
+ \includegraphics[width=0.8\linewidth]{../photos/snap_points.png}
+ \caption{Snapping user point to border nodes (left,right) and snapping to perpendicular point where possible}
+ \label{fig:db_snap}
+ \end{figure}
+
+ With this information we create a new mock node which represents the start point of our search. We connect this new node with the end nodes of the closest segment, making it possible to use it in A* algorithm. We repeat the same steps for the end point. After the search we remove all the nodes and edges we additional added, reverting back the graph to the same state as before the search.
+
+  \subsection{Implementation in C++}
+Road snapping function requires an extremely time consuming operation of finding close segments. We could have actually calculated the perpendicular projection on every WaySegment in the map and then among them find the smallest, but this would mean ten thousands of unnecessary calculations. Instead we used rtree data structure containing all the WaySegments implemented in \textit{Database class}. With this we were able to quickly find WaySegments whose bounding boxes intersect with our point. To compensate for areas, where roads are closely together, we implemented the search in small increasing steps. We start the with a small neighbourhood and gradually increasing it, until we find any intersecting WaySegments. This approach reduces the calculations of perpendicular projections from ten thousand to just a couple. The diagram of the proces is shown in the figure[]
+
+\subsection{Implementation in Matlab}
+Unfortunately Matlab does not have similar data structures capable of spatial filtering. To get the same end result we calculated the projection points on all the points and find the one with the minimal distance. To speed up the process of calculation we put the data in vectors and vectorize[matlab CITE] the code for calculation. The speed of the calculation turned out to be sufficient.
+
+\section{Shortest path A $->$ B search}
+Our algorithm for finding the shortest path between point A and point B is the collection of methods we already described. The whole process is shown on figure \ref{fig:ab_activity}.
+ \begin{figure}[h]
+ \centering
+ \includegraphics[width=0.7\linewidth]{../photos/shortest_path_ab_activity.png}
+ \caption{Activity diagram of finding the shortest path between point A and B}
+ \label{fig:ab_activity}
+ \end{figure}
 
 \section{Radius search}
 \section{Bicycle search}
@@ -346,6 +381,7 @@ J. W. S. Cassels,
 {\em An Introduction to Diophantine Approximation},
 Cambridge University Press, 1965.
 
+\bibitem{vec_matlab}
 
 
 \end{thebibliography}

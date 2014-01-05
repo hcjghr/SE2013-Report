@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.10.4)  5 JAN 2014 13:06
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.10.4)  5 JAN 2014 15:13
 entering extended mode
 **Yomap*-*Report.tex
 ("E:\Developing\Vibot\SE\GIT\SE2013-Report\Latex\Yomap - Report.tex"
@@ -485,7 +485,7 @@ Chapter 1
 ]
 Chapter 2
 
-<../photos/Iterative_development_model_V2.jpg, id=25, 318.43968pt x 167.12437pt
+<../photos/Iterative_development_model_V2.jpg, id=27, 318.43968pt x 167.12437pt
 >
 File: ../photos/Iterative_development_model_V2.jpg Graphic file (type jpg)
  <use ../photos/Iterative_development_model_V2.jpg>
@@ -522,7 +522,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 215--218
 
 [10
 
-] <../photos/OSM_flow.jpg, id=59, 149.05687pt x 188.95593pt>
+] <../photos/OSM_flow.jpg, id=60, 149.05687pt x 188.95593pt>
 File: ../photos/OSM_flow.jpg Graphic file (type jpg)
 
 <use ../photos/OSM_flow.jpg>
@@ -534,13 +534,13 @@ Underfull \vbox (badness 2326) has occurred while \output is active []
  [12]
 [13]
 Chapter 6
-<../photos/ways.png, id=70, 341.3553pt x 297.5115pt>
+<../photos/ways.png, id=71, 341.3553pt x 297.5115pt>
 File: ../photos/ways.png Graphic file (type png)
  <use ../photos/ways.png>
 Package pdftex.def Info: ../photos/ways.png used on input line 260.
 (pdftex.def)             Requested size: 130.58098pt x 113.81102pt.
 
-<../photos/Class_Diagram.png, id=72, 496.4949pt x 443.7378pt>
+<../photos/Class_Diagram.png, id=73, 496.4949pt x 443.7378pt>
 File: ../photos/Class_Diagram.png Graphic file (type png)
 
 <use ../photos/Class_Diagram.png>
@@ -561,38 +561,55 @@ Underfull \vbox (badness 4316) has occurred while \output is active []
 
 ]
 [18]
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
+
+ []
+
+<../photos/snap_points.png, id=92, 192.72pt x 34.2078pt>
+File: ../photos/snap_points.png Graphic file (type png)
+
+<use ../photos/snap_points.png>
+Package pdftex.def Info: ../photos/snap_points.png used on input line 335.
+(pdftex.def)             Requested size: 288.0011pt x 51.11998pt.
+
+Underfull \hbox (badness 3219) in paragraph at lines 336--336
+\OT1/cmr/m/sc/12 Figure 1.\OT1/cmr/m/n/12 Snapping user point to bor-der nodes
+ []
+
+[19 <E:/Developing/Vibot/SE/GIT/SE2013-Report/photos/snap_points.png>] [20]
 Chapter 8
-[19
+[21
 
 ]
 Chapter 9
-[20
+[22
 
 ]
 Bibliography
-[21
+[23
 
 ] ("E:\Developing\Vibot\SE\GIT\SE2013-Report\Latex\Yomap - Report.aux") ) 
 Here is how much of TeX's memory you used:
- 11199 strings out of 493921
- 212067 string characters out of 3147279
- 250064 words of memory out of 3000000
- 14122 multiletter control sequences out of 15000+200000
+ 11206 strings out of 493921
+ 212226 string characters out of 3147279
+ 250076 words of memory out of 3000000
+ 14128 multiletter control sequences out of 15000+200000
  13095 words of font info for 50 fonts, out of 3000000 for 9000
  1002 hyphenation exceptions out of 8191
- 56i,8n,76p,851b,938s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,8n,76p,915b,938s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Yomap - Report.pdf" (23 pages, 1339561 bytes).
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "Yomap - Report.pdf" (25 pages, 1358518 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
+ 142 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
