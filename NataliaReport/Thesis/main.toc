@@ -45,7 +45,16 @@
 \contentsline {paragraph}{}{18}{section*.53}
 \contentsline {paragraph}{}{19}{section*.54}
 \contentsline {paragraph}{}{19}{section*.55}
+\contentsline {chapter}{\numberline {8}YoMap Matlab User Guide}{20}{chapter.56}
+\contentsline {section}{\numberline {8.1}Introduction}{20}{section.57}
+\contentsline {section}{\numberline {8.2}Getting Started}{20}{section.58}
+\contentsline {section}{\numberline {8.3}Data Entry}{21}{section.66}
+\contentsline {section}{\numberline {8.4}Layers Usage}{21}{section.70}
+\contentsline {section}{\numberline {8.5}Point of Interest Information}{22}{section.71}
+\contentsline {section}{\numberline {8.6}Shortest Path Search}{22}{section.72}
+\contentsline {section}{\numberline {8.7}Shortest Path Search With a Middle Point}{22}{section.73}
+\contentsline {section}{\numberline {8.8}Radius Search}{22}{section.74}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{20}{appendix.56}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{23}{appendix.75}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{21}{dummy.57}
+\contentsline {chapter}{Bibliography}{24}{dummy.76}
