@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.10.4)  5 JAN 2014 15:13
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.10.4)  5 JAN 2014 16:29
 entering extended mode
 **Yomap*-*Report.tex
 ("E:\Developing\Vibot\SE\GIT\SE2013-Report\Latex\Yomap - Report.tex"
@@ -432,7 +432,11 @@ librarydecorations.code.tex"
 \tikz@lib@dec@box=\box38
 ))
 \c@thm=\count121
- ("E:\Developing\Vibot\SE\GIT\SE2013-Report\Latex\Yomap - Report.aux")
+ ("E:\Developing\Vibot\SE\GIT\SE2013-Report\Latex\Yomap - Report.aux"
+
+LaTeX Warning: Label `fig:ab_activity' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
 LaTeX Font Info:    ... okay on input line 98.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
@@ -446,8 +450,7 @@ LaTeX Font Info:    ... okay on input line 98.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
 LaTeX Font Info:    ... okay on input line 98.
 LaTeX Font Info:    Try loading font information for U+msa on input line 98.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 98.
@@ -577,39 +580,69 @@ Underfull \hbox (badness 3219) in paragraph at lines 336--336
  []
 
 [19 <E:/Developing/Vibot/SE/GIT/SE2013-Report/photos/snap_points.png>] [20]
+<../photos/shortest_path_ab_activity.png, id=99, 153.6942pt x 126.9543pt>
+File: ../photos/shortest_path_ab_activity.png Graphic file (type png)
+
+<use ../photos/shortest_path_ab_activity.png>
+Package pdftex.def Info: ../photos/shortest_path_ab_activity.png used on input 
+line 358.
+(pdftex.def)             Requested size: 251.9989pt x 208.16376pt.
+ [21 <E:/Developing/Vibot/SE/GIT/SE2013-Report/photos/shortest_path_ab_activity
+.png>]
+
+LaTeX Warning: Reference `fig:radius_activity' on page 22 undefined on input li
+ne 372.
+
+<../photos/shortest_path_radius.png, id=105, 188.6247pt x 112.2594pt>
+File: ../photos/shortest_path_radius.png Graphic file (type png)
+
+<use ../photos/shortest_path_radius.png>
+Package pdftex.def Info: ../photos/shortest_path_radius.png used on input line 
+375.
+(pdftex.def)             Requested size: 251.9989pt x 149.98656pt.
+ [22 <E:/Developing/Vibot/SE/GIT/SE2013-Report/photos/shortest_path_radius.png>
+]
 Chapter 8
-[21
+[23
 
 ]
 Chapter 9
-[22
+[24
 
 ]
 Bibliography
-[23
+[25
 
-] ("E:\Developing\Vibot\SE\GIT\SE2013-Report\Latex\Yomap - Report.aux") ) 
+] ("E:\Developing\Vibot\SE\GIT\SE2013-Report\Latex\Yomap - Report.aux")
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 11206 strings out of 493921
- 212226 string characters out of 3147279
- 250076 words of memory out of 3000000
- 14128 multiletter control sequences out of 15000+200000
- 13095 words of font info for 50 fonts, out of 3000000 for 9000
+ 11226 strings out of 493921
+ 212726 string characters out of 3147279
+ 250124 words of memory out of 3000000
+ 14143 multiletter control sequences out of 15000+200000
+ 14341 words of font info for 55 fonts, out of 3000000 for 9000
  1002 hyphenation exceptions out of 8191
  56i,8n,76p,915b,938s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Yomap - Report.pdf" (25 pages, 1358518 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "Yomap - Report.pdf" (27 pages, 1424776 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
+ 158 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 72 words of extra memory for PDF output out of 10000 (max. 10000000)
 

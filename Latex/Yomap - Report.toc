@@ -24,15 +24,16 @@
 \contentsline {section}{\tocsection {}{2}{Road snapping}}{19}
 \contentsline {subsection}{\tocsubsection {}{2.1}{Implementation in C++}}{20}
 \contentsline {subsection}{\tocsubsection {}{2.2}{Implementation in Matlab}}{20}
-\contentsline {section}{\tocsection {}{3}{Shortest path A $->$ B search}}{20}
-\contentsline {section}{\tocsection {}{4}{Radius search}}{20}
-\contentsline {section}{\tocsection {}{5}{Bicycle search}}{20}
-\contentsline {chapter}{\tocchapter {Chapter}{8}{GUI}}{21}
-\contentsline {section}{\tocsection {}{1}{C++}}{21}
-\contentsline {subsection}{\tocsubsection {}{1.1}{UI}}{21}
-\contentsline {subsection}{\tocsubsection {}{1.2}{OpenGL}}{21}
-\contentsline {section}{\tocsection {}{2}{Matlab}}{21}
-\contentsline {subsection}{\tocsubsection {}{2.1}{UI}}{21}
-\contentsline {subsection}{\tocsubsection {}{2.2}{library for maps}}{21}
-\contentsline {chapter}{\tocchapter {Chapter}{9}{c++ vs matlab}}{22}
-\contentsline {chapter}{\tocchapter {Chapter}{}{Bibliography}}{23}
+\contentsline {section}{\tocsection {}{3}{Shortest path A $->$ B}}{20}
+\contentsline {subsection}{\tocsubsection {}{3.1}{Implementation}}{21}
+\contentsline {section}{\tocsection {}{4}{Radius search}}{22}
+\contentsline {section}{\tocsection {}{5}{Bicycle search}}{22}
+\contentsline {chapter}{\tocchapter {Chapter}{8}{GUI}}{23}
+\contentsline {section}{\tocsection {}{1}{C++}}{23}
+\contentsline {subsection}{\tocsubsection {}{1.1}{UI}}{23}
+\contentsline {subsection}{\tocsubsection {}{1.2}{OpenGL}}{23}
+\contentsline {section}{\tocsection {}{2}{Matlab}}{23}
+\contentsline {subsection}{\tocsubsection {}{2.1}{UI}}{23}
+\contentsline {subsection}{\tocsubsection {}{2.2}{library for maps}}{23}
+\contentsline {chapter}{\tocchapter {Chapter}{9}{c++ vs matlab}}{24}
+\contentsline {chapter}{\tocchapter {Chapter}{}{Bibliography}}{25}

@@ -328,7 +328,7 @@ normal Dijkstra algorithm. Because we do not know distance from node to end targ
 \section{Road snapping}
 As described in the previous section A* algorithm enables us to find the shortest path between two nodes in a graph. This enforces the restriction of searching only on the locations of the nodes. This is a huge limitation, as on some parts of the map users point can be located far away from the closest node. To overcome this restriction we implemented \textbf{a road snapping function}.\\
 
-Road snapping function finds the segment on which the perpendicular projection of user's point is closest to the user's point itself. Calculation of the perpendicular projection of a point on the segment is done using vectors and dot product between them. Algorithm used is described on website[]. It is worth mentioning that if the perpendicular projection of the point is outside of the interval between both nodes, it snaps to the border node. This can be seen on figure\ref{fig:db_snap} (left and right).
+Road snapping function finds the segment on which the perpendicular projection of user's point is closest to the user's point itself. We only consider the segments which are appropriate for a specific mode of transport. Calculation of the perpendicular projection of a point on the segment is done using vectors and dot product between them. Algorithm used is described on website[]. It is worth mentioning that if the perpendicular projection of the point is outside of the interval between both nodes, it snaps to the border node. This can be seen on figure\ref{fig:db_snap} (left and right).
 
  \begin{figure}[h]
  \centering
@@ -345,17 +345,61 @@ Road snapping function requires an extremely time consuming operation of finding
 \subsection{Implementation in Matlab}
 Unfortunately Matlab does not have similar data structures capable of spatial filtering. To get the same end result we calculated the projection points on all the points and find the one with the minimal distance. To speed up the process of calculation we put the data in vectors and vectorize[matlab CITE] the code for calculation. The speed of the calculation turned out to be sufficient.
 
-\section{Shortest path A $->$ B search}
-Our algorithm for finding the shortest path between point A and point B is the collection of methods we already described. The whole process is shown on figure \ref{fig:ab_activity}.
+\section{Shortest path A $->$ B}
+This algorithm finds the shortest path between users defined points A and B on the roads that permit mode of transport selected by the user. With the usage of the road snapping functionality we can provide the user complete freedom in selecting the points anywhere on the map. The inputs to the algorithm are:
+\begin{itemize}
+\item Location of the start point
+\item Location of the end point
+\item Mode of transport
+\end{itemize}
+After finding the closest segments for start and end and adding mock nodes we can use A* algorithm to find the shortest path. The result of the algorithm is an object Path containing one PathSegment corresponding to WaySegments on the way from point A to B. If path does not exist we return an empty Path. The whole process is schematically shown on figure \ref{fig:ab_activity}.
  \begin{figure}[h]
  \centering
  \includegraphics[width=0.7\linewidth]{../photos/shortest_path_ab_activity.png}
  \caption{Activity diagram of finding the shortest path between point A and B}
  \label{fig:ab_activity}
  \end{figure}
-
+ \subsection{Implementation}
+ The implementation details for both applications (C++ and Matlab) have been already described in specific methods of A* and road snapping. Other things are just sequence of if sentences that do not need special explanation.
 \section{Radius search}
-\section{Bicycle search}
+Radius search algorithm finds all the possible paths from user defined point A to all the points of interest (POIs) of a user specified category in some radius. The inputs to the algorithm are:
+\begin{itemize}
+\item Location of the start point
+\item Category of POIs
+\item Max distance of the path
+\item Mode of transport
+\end{itemize}
+After finding the closest WaySegment to the start point, we go through all the POIs. For each of them we find the closest WaySegment and check the air distance between start and POI point. If the distance is bigger than the longest permitted path, we immediately discard the POI, because there is shorter way possible than that. Otherwise we try to find the shortest path using Shortest path A $->$ B algorithm. The final result of the lagorithm is a bit different for both applications. In C++ we return the set of all possible paths ordered by the distance of the path, whereas in Matlab we only return the shortest path. Whole process is shown on figure \ref{fig:radius_activity}.    
+ \begin{figure}[h]
+ \centering
+ \includegraphics[width=0.7\linewidth]{../photos/shortest_path_radius.png}
+ \caption{Activity diagram of finding radius search between point A and POIs of specific categories}
+ \label{fig:radius_activity}
+ \end{figure}
+ \subsection{Implementation in C++}
+ As mentioned, data structure used to store all found paths is \textit{std::set}. We used that because our paths are unique and we want them ordered by distance. For this reason we implemented comparator that takes care of sorting the paths when they are inserted in the set.
+\section{Itinerary search}
+Itinerary search algorithm constructs a path, that connects user defined start and end point and go through points of interested of a user defined categories. Algorithm finds a path that goes through one of the POI of each of the categories. The number of the categories in the list (points we want to visit) is not limited, but we have to be aware that the number of combinations increases significantly with every new category. Algorithm's inputs are:
+\begin{itemize}
+\item Location of the start point
+\item Location of the end point
+\item List of Categories of POIs we want to visit
+\item Max distance of the path
+\item Indication if the order of visited categories is important
+\item Mode of transport
+\end{itemize}
+Before the start of actual path finding, we construct all possible combinations POIs on the way. As already mentioned, for each category in the list we want to visit just one POI. We add this points to a queue which is ordered by ascending order of air distances of points on the path.\\
+Next phase is to find an actual path of the points with the smallest air distance in the queue (top of the queue). If the air distance of the top element of the queue is bigger than the minimum found distance of the real path, we can stop the search, as we will not find smaller path then the one we already have. This way we do not keep looking for numerous paths which dont have any chance of being smaller than the smallest already found path. Diagram in figure \ref{fig:itinerary_activity}] shows the process of the search. The same as in previous algorithms, if no path is found we return an empty path.
+ \begin{figure}[h]
+ \centering
+ \includegraphics[width=0.7\linewidth]{../photos/sshortest_path_itinerary.png}
+ \caption{Activity diagram of finding radius search between point A and POIs of specific categories}
+ \label{fig:itinerary_activity}
+ \end{figure}
+\subsection{Implementation in C++}
+Described algorithm was implemented in C++, using list data structure, to hold all the possible combinations of POIs and priority queue to sort the paths according the air distances. We used the selected data structures because they provided exactly what we needed. Priority queue because the order of our data is important and the smallest(largest) element goes out first. 
+\subsection{Implementation in Matlab}
+In Matlab we have implemented the algorithm with only one middle category. In the calculations we take advantage of Vectorization, which significantly increases the speed of the calculations.    
 \chapter{GUI}
 \section{C++}
 \subsection{UI}
