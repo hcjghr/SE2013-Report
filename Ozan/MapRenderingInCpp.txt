@@ -1,0 +1,10 @@
+Map Rendering in C++
+Drawing map is a rough task. In order to achieve it, we decided to use powerful, cross-language, multi-platform API called OpenGL (Open Graphics Library) for our map rendering. Creating user interface was another important task. 
+
+We decided to use Qt framework and Qt-OpenGL integration. Qt has QtOpenGL module offering classes to make it easy to use OpenGL in Qt applications. Since we started to use Qt Widgets as UI elements to create classic desktop-style user interface, we created our own GLWidget class inherited from QGLWidget to access basic OpenGL functions. So we overrided its methods like initializeGl, paintGL, resizeGl, key press events, mouse press and wheel event etc. This give us easy access to OpenGL API to draw our map. 
+
+Since the task was map drawing, we used orthogonal projection to draw map in 2D. We also created GLCamera to provide virtual camera in our OpenGL scene. In GLCamera, we keep track of the camera position, where camera looks, move speed, zoom level, zoom speed, orthogonal projection variables, our GLWidget's width and height, furthermore providing functions to center map, zoom in/out and move. 
+
+Another challenge was drawing Point of Interests where we involved in texture mapping. In our OpenGL part, we created GLPOIPoint class to keep POIPoint, texture size, texture id, vertices and coordinates of the texture. 
+
+On the other hand, other task was keep in sync with UI, where our GLWidget didn't know about its parent Widget however it providing signals and slots to emit/recieve signals. Rest was straight forward OpenGL drawing with provided data from UI.
