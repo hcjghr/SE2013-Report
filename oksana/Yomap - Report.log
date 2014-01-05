@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.10.13)  5 JAN 2014 21:26
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.10.13)  5 JAN 2014 22:09
 entering extended mode
 **Yomap*-*Report.tex
 ("C:\Users\tuitikki\Documents\GitHub\SE2013-Report\oksana\Yomap - Report.tex"
@@ -604,24 +604,64 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [21] [22 <C:/Users/tuitikki/Documents/GitHub/SE2013-Report/photos/shortest_path
 _ab_activity.png>]
 Chapter 8
-[23
+<2point_3.png, id=108, 749.80125pt x 575.90157pt>
+File: 2point_3.png Graphic file (type png)
+ <use 2point_3.png>
+Package pdftex.def Info: 2point_3.png used on input line 383.
+(pdftex.def)             Requested size: 360.0pt x 276.5087pt.
 
-] [24]
+<Radius_0.png, id=109, 749.80125pt x 578.16pt>
+File: Radius_0.png Graphic file (type png)
+ <use Radius_0.png>
+Package pdftex.def Info: Radius_0.png used on input line 388.
+(pdftex.def)             Requested size: 360.0pt x 277.59305pt.
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+ [23
+
+]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24 <C:/Users/tuitikki/Documents/GitHub/SE2013-Report/oksana/2point_3.png>]
+<EditPOI.png, id=117, 747.54282pt x 566.115pt>
+File: EditPOI.png Graphic file (type png)
+ <use EditPOI.png>
+Package pdftex.def Info: EditPOI.png used on input line 400.
+(pdftex.def)             Requested size: 360.0pt x 272.63048pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<AddPOI.png, id=118, 750.55406pt x 575.90157pt>
+File: AddPOI.png Graphic file (type png)
+ <use AddPOI.png>
+Package pdftex.def Info: AddPOI.png used on input line 406.
+(pdftex.def)             Requested size: 360.0pt x 276.23628pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[25 <C:/Users/tuitikki/Documents/GitHub/SE2013-Report/oksana/Radius_0.png>]
+[26 <C:/Users/tuitikki/Documents/GitHub/SE2013-Report/oksana/EditPOI.png>]
+[27 <C:/Users/tuitikki/Documents/GitHub/SE2013-Report/oksana/AddPOI.png>]
 Chapter 9
-[25
+[28
 
 ]
 Bibliography
-[26
+[29
 
 ]
 ("C:\Users\tuitikki\Documents\GitHub\SE2013-Report\oksana\Yomap - Report.aux") 
 ) 
 Here is how much of TeX's memory you used:
- 11220 strings out of 493921
- 212607 string characters out of 3147272
+ 11240 strings out of 493921
+ 212908 string characters out of 3147272
  250085 words of memory out of 3000000
- 14138 multiletter control sequences out of 15000+200000
+ 14154 multiletter control sequences out of 15000+200000
  14341 words of font info for 55 fonts, out of 3000000 for 9000
  1002 hyphenation exceptions out of 8191
  56i,8n,76p,915b,938s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -636,9 +676,9 @@ m/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Yomap - Report.pdf" (28 pages, 1400394 bytes).
+Output written on "Yomap - Report.pdf" (31 pages, 1764449 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
+ 174 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 87 words of extra memory for PDF output out of 10000 (max. 10000000)
 

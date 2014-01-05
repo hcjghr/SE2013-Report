@@ -378,10 +378,35 @@ The application UI is connected to all other parts of the application through th
 
 The UI is straightforward and easy to use. There are two main parts - control panel and map. It is possible to extract three multiple cases of the application usage from the task: the search of Point-to-Point shortest path; the search of the destination in the given radius; the itinerary search with the middle point given as any from the category. Thus, the control contains three tabs corresponding to the three different functions. In each of them there are three options to enter the start and end point; you can either directly use geographical coordinates, choose from the category and POI, or by click on the map. Clicking on the map can have two effects: if you clock in the vicinity of the POI it will be chosen as start/end point, otherwise, just coordinates of the point clicked on the map will be set.
 After user have chosen all the parameters of the search, the button "Go!" calls path searching algorithms. The important part is to check that inputs are valid and satisfy bounding conditions of the map. Then the result is displayed with graphical functions and text output.
+ \begin{figure}[h]
+ \centering
+ \includegraphics[ width=\textwidth]{2point_3.png}
+ \caption{How much time does it take to drive from the train station to Condorcet?}
+ \end{figure}
+  \begin{figure}[h]
+  \centering
+  \includegraphics[ width=\textwidth]{Radius_0.png}
+  \caption{Can you provide an itinerary that is at most 5km long, that passes by a bakery, that 
+  starts in Résidence Jean Moulin, and that ends in the Résidence Acacia?}
+  \end{figure}
+
 
 \subsection{Editing the POI database}
 
 The POI can be seen on the map as various descriptive icons according to the category they belong to. Once user clicks on one of the POI small widget appears with the details of the POI. If "Edit" button is pressed, you can edit any data belonging to the chosen POI. Besides user can add POI by choosing one on the options in the context menu, which appears with on-map mouse click. 
+ 
+  \begin{figure}[h]
+  \centering
+  \includegraphics[ width=\textwidth]{EditPOI.png}
+  \caption{Editing Existing POI}
+  \end{figure}
+  
+    \begin{figure}[h]
+    \centering
+    \includegraphics[ width=\textwidth]{AddPOI.png}
+    \caption{Adding new POI}
+
+    \end{figure}
 \section{Map Rendering in C++}
 \section{Matlab}
 \subsection{UI}
