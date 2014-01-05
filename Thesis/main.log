@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.10.4)  5 JAN 2014 23:11
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.10.4)  5 JAN 2014 23:22
 entering extended mode
 **main.tex
 (E:\Developing\Vibot\SE\GIT\SE2013-Report\Thesis\main.tex
@@ -830,7 +830,7 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
 
-<Pictures/../pictures/Iterative_development_model_V2.jpg, id=423, 318.43968pt x
+<Pictures/../pictures/Iterative_development_model_V2.jpg, id=428, 318.43968pt x
  167.12437pt>
 File: Pictures/../pictures/Iterative_development_model_V2.jpg Graphic file (typ
 e jpg)
@@ -843,7 +843,7 @@ g used on input line 20.
 
  <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/Iterativ
 e_development_model_V2.jpg>]
-<Pictures/../pictures/sketch.jpg, id=432, 639.38875pt x 259.97125pt>
+<Pictures/../pictures/sketch.jpg, id=437, 639.38875pt x 259.97125pt>
 File: Pictures/../pictures/sketch.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/sketch.jpg>
@@ -858,7 +858,7 @@ Chapter 3.
  3 Initial planning
 ------------------------------------------------------------------------------
 
-<Pictures/../pictures/use_case_diagram_general.png, id=446, 199.2243pt x 120.45
+<Pictures/../pictures/use_case_diagram_general.png, id=451, 199.2243pt x 120.45
 pt>
 File: Pictures/../pictures/use_case_diagram_general.png Graphic file (type png)
 
@@ -881,7 +881,7 @@ Chapter 4.
 ------------------------------------------------------------------------------
 [8
 
-] <Pictures/../pictures/osm_flow.png, id=464, 71.7882pt x 31.5579pt>
+] <Pictures/../pictures/osm_flow.png, id=469, 71.7882pt x 31.5579pt>
 File: Pictures/../pictures/osm_flow.png Graphic file (type png)
 
 <use Pictures/../pictures/osm_flow.png>
@@ -897,7 +897,7 @@ Chapter 5.
 ------------------------------------------------------------------------------
 [10
 
-] <Pictures/../pictures/ways.png, id=476, 506.8536pt x 257.0403pt>
+] <Pictures/../pictures/ways.png, id=481, 506.8536pt x 257.0403pt>
 File: Pictures/../pictures/ways.png Graphic file (type png)
 
 <use Pictures/../pictures/ways.png>
@@ -905,7 +905,7 @@ Package pdftex.def Info: Pictures/../pictures/ways.png used on input line 27.
 (pdftex.def)             Requested size: 333.97972pt x 169.37257pt.
  [11 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/ways
 .png>] [12]
-<Pictures/../pictures/Class_Diagram.png, id=495, 496.4949pt x 443.7378pt>
+<Pictures/../pictures/Class_Diagram.png, id=500, 496.4949pt x 443.7378pt>
 File: Pictures/../pictures/Class_Diagram.png Graphic file (type png)
 
 <use Pictures/../pictures/Class_Diagram.png>
@@ -925,7 +925,7 @@ LaTeX Warning: Reference `user_req' on page 14 undefined on input line 19.
 
 [14
 
-] [15] <Pictures/../pictures/snap_points.png, id=513, 192.72pt x 34.2078pt>
+] [15] <Pictures/../pictures/snap_points.png, id=518, 192.72pt x 34.2078pt>
 File: Pictures/../pictures/snap_points.png Graphic file (type png)
 
 <use Pictures/../pictures/snap_points.png>
@@ -934,7 +934,7 @@ e 52.
 (pdftex.def)             Requested size: 375.7232pt x 66.69081pt.
  [16 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/snap
 _points.png>]
-<Pictures/../pictures/act_diagram_closest_way.png, id=520, 164.7756pt x 74.9199
+<Pictures/../pictures/act_diagram_closest_way.png, id=525, 164.7756pt x 74.9199
 pt>
 File: Pictures/../pictures/act_diagram_closest_way.png Graphic file (type png)
  <use Pictures/../pictures/act_diagram_closest_way.png>
@@ -951,7 +951,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 72.
 
 
-<Pictures/../pictures/shortest_path_ab_activity.png, id=523, 153.6942pt x 126.9
+<Pictures/../pictures/shortest_path_ab_activity.png, id=528, 153.6942pt x 126.9
 543pt>
 File: Pictures/../pictures/shortest_path_ab_activity.png Graphic file (type png
 )
@@ -961,7 +961,7 @@ d on input line 82.
 (pdftex.def)             Requested size: 333.97972pt x 275.88313pt.
  [17 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/act_
 diagram_closest_way.png>]
-<Pictures/../pictures/search_ab_result.jpg, id=532, 1388.18625pt x 716.6775pt>
+<Pictures/../pictures/search_ab_result.jpg, id=537, 1388.18625pt x 716.6775pt>
 File: Pictures/../pictures/search_ab_result.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/search_ab_result.jpg>
@@ -969,7 +969,7 @@ Package pdftex.def Info: Pictures/../pictures/search_ab_result.jpg used on inpu
 t line 92.
 (pdftex.def)             Requested size: 333.97972pt x 172.42166pt.
 
-<Pictures/../pictures/search_ab_matlab.jpg, id=533, 741.77126pt x 708.6475pt>
+<Pictures/../pictures/search_ab_matlab.jpg, id=538, 741.77126pt x 708.6475pt>
 File: Pictures/../pictures/search_ab_matlab.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/search_ab_matlab.jpg>
@@ -985,7 +985,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [18 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/short
 est_path_ab_activity.png>]
-<Pictures/../pictures/shortest_path_radius.png, id=539, 188.6247pt x 112.2594pt
+<Pictures/../pictures/shortest_path_radius.png, id=544, 188.6247pt x 112.2594pt
 >
 File: Pictures/../pictures/shortest_path_radius.png Graphic file (type png)
  <use Pictures/../pictures/shortest_path_radius.png>
@@ -995,7 +995,7 @@ input line 114.
  [19 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/sear
 ch_ab_result.jpg> <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../
 pictures/search_ab_matlab.jpg>]
-<Pictures/../pictures/search_radius_result.jpg, id=545, 1032.85875pt x 969.6225
+<Pictures/../pictures/search_radius_result.jpg, id=550, 1032.85875pt x 969.6225
 pt>
 File: Pictures/../pictures/search_radius_result.jpg Graphic file (type jpg)
  <use Pictures/../pictures/search_radius_result.jpg>
@@ -1008,7 +1008,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [20 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/short
 est_path_radius.png>]
-<Pictures/../pictures/shortest_path_itinerary.png, id=552, 182.6022pt x 89.3739
+<Pictures/../pictures/shortest_path_itinerary.png, id=557, 182.6022pt x 89.3739
 pt>
 File: Pictures/../pictures/shortest_path_itinerary.png Graphic file (type png)
  <use Pictures/../pictures/shortest_path_itinerary.png>
@@ -1017,7 +1017,7 @@ on input line 147.
 (pdftex.def)             Requested size: 292.22987pt x 143.0366pt.
  [21 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/sear
 ch_radius_result.jpg>]
-<Pictures/../pictures/search_ite_result.jpg, id=558, 882.29625pt x 846.16125pt>
+<Pictures/../pictures/search_ite_result.jpg, id=563, 882.29625pt x 846.16125pt>
 File: Pictures/../pictures/search_ite_result.jpg Graphic file (type jpg)
 <use Pictures/../pictures/search_ite_result.jpg>
 Package pdftex.def Info: Pictures/../pictures/search_ite_result.jpg used on inp
@@ -1027,7 +1027,7 @@ ut line 156.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Pictures/../pictures/search_ite_matlab.jpg, id=560, 726.715pt x 712.6625pt>
+<Pictures/../pictures/search_ite_matlab.jpg, id=565, 726.715pt x 712.6625pt>
 File: Pictures/../pictures/search_ite_matlab.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/search_ite_matlab.jpg>
@@ -1048,7 +1048,7 @@ Chapter 7.
 ------------------------------------------------------------------------------
  7 Graphical User Interface - GUI
 ------------------------------------------------------------------------------
-<Pictures/../pictures/2point_3.png, id=569, 749.80125pt x 575.90157pt>
+<Pictures/../pictures/2point_3.png, id=574, 749.80125pt x 575.90157pt>
 File: Pictures/../pictures/2point_3.png Graphic file (type png)
 
 <use Pictures/../pictures/2point_3.png>
@@ -1056,7 +1056,7 @@ Package pdftex.def Info: Pictures/../pictures/2point_3.png used on input line 2
 2.
 (pdftex.def)             Requested size: 333.97972pt x 256.52583pt.
 
-<Pictures/../pictures/Radius_0.png, id=570, 749.80125pt x 578.16pt>
+<Pictures/../pictures/Radius_0.png, id=575, 749.80125pt x 578.16pt>
 File: Pictures/../pictures/Radius_0.png Graphic file (type png)
 
 <use Pictures/../pictures/Radius_0.png>
@@ -1069,7 +1069,7 @@ Package pdftex.def Info: Pictures/../pictures/Radius_0.png used on input line 2
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Pictures/../pictures/EditPOI.png, id=575, 747.54282pt x 566.115pt>
+<Pictures/../pictures/EditPOI.png, id=580, 747.54282pt x 566.115pt>
 File: Pictures/../pictures/EditPOI.png Graphic file (type png)
 
 <use Pictures/../pictures/EditPOI.png>
@@ -1080,7 +1080,7 @@ Package pdftex.def Info: Pictures/../pictures/EditPOI.png used on input line 39
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Pictures/../pictures/AddPOI.png, id=576, 750.55406pt x 575.90157pt>
+<Pictures/../pictures/AddPOI.png, id=581, 750.55406pt x 575.90157pt>
 File: Pictures/../pictures/AddPOI.png Graphic file (type png)
 
 <use Pictures/../pictures/AddPOI.png>
@@ -1092,136 +1092,142 @@ Package pdftex.def Info: Pictures/../pictures/AddPOI.png used on input line 45.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [25 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/2poin
-t_3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+t_3.png>] [26 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pict
+ures/Radius_0.png>] [27 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictur
+es/../pictures/EditPOI.png> <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pi
+ctures/../pictures/AddPOI.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
-[26 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/Radiu
-s_0.png>] [27 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pict
-ures/EditPOI.png> <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../
-pictures/AddPOI.png>]
-<Pictures/../pictures/721.jpg, id=592, 963.6pt x 714.67pt>
+<Pictures/../pictures/721.jpg, id=596, 963.6pt x 714.67pt>
 File: Pictures/../pictures/721.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/721.jpg>
-Package pdftex.def Info: Pictures/../pictures/721.jpg used on input line 73.
+Package pdftex.def Info: Pictures/../pictures/721.jpg used on input line 83.
 (pdftex.def)             Requested size: 333.97972pt x 247.69553pt.
- [28 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/721.
-jpg>]
-<Pictures/../pictures/722.jpg, id=598, 1054.94125pt x 835.12pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[28] <Pictures/../pictures/722.jpg, id=603, 1054.94125pt x 835.12pt>
 File: Pictures/../pictures/722.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/722.jpg>
-Package pdftex.def Info: Pictures/../pictures/722.jpg used on input line 97.
+Package pdftex.def Info: Pictures/../pictures/722.jpg used on input line 107.
 (pdftex.def)             Requested size: 333.97972pt x 264.37671pt.
 
-<Pictures/../pictures/723.jpg, id=600, 1057.9525pt x 836.12375pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/721.j
+pg>] <Pictures/../pictures/723.jpg, id=609, 1057.9525pt x 836.12375pt>
 File: Pictures/../pictures/723.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/723.jpg>
-Package pdftex.def Info: Pictures/../pictures/723.jpg used on input line 108.
+Package pdftex.def Info: Pictures/../pictures/723.jpg used on input line 118.
 (pdftex.def)             Requested size: 333.97972pt x 263.95448pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Pictures/../pictures/724.jpg, id=602, 1056.94875pt x 269.005pt>
+<Pictures/../pictures/724.jpg, id=611, 1056.94875pt x 269.005pt>
 File: Pictures/../pictures/724.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/724.jpg>
-Package pdftex.def Info: Pictures/../pictures/724.jpg used on input line 116.
+Package pdftex.def Info: Pictures/../pictures/724.jpg used on input line 126.
 (pdftex.def)             Requested size: 333.97972pt x 84.99971pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Pictures/../pictures/725.jpg, id=604, 1054.94125pt x 836.12375pt>
+ [30 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/722.
+jpg> <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/723.
+jpg>]
+<Pictures/../pictures/725.jpg, id=617, 1054.94125pt x 836.12375pt>
 File: Pictures/../pictures/725.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/725.jpg>
-Package pdftex.def Info: Pictures/../pictures/725.jpg used on input line 124.
+Package pdftex.def Info: Pictures/../pictures/725.jpg used on input line 134.
 (pdftex.def)             Requested size: 333.97972pt x 264.69446pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[29 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/722.j
-pg>] <Pictures/../pictures/726.jpg, id=610, 1053.9375pt x 832.10875pt>
+ [31 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/724.
+jpg> <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/725.
+jpg>]
+<Pictures/../pictures/726.jpg, id=624, 1053.9375pt x 832.10875pt>
 File: Pictures/../pictures/726.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/726.jpg>
-Package pdftex.def Info: Pictures/../pictures/726.jpg used on input line 143.
+Package pdftex.def Info: Pictures/../pictures/726.jpg used on input line 153.
 (pdftex.def)             Requested size: 333.97972pt x 263.69006pt.
- [30 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/723.
-jpg> <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/724.
-jpg>]
-<Pictures/../pictures/727.jpg, id=617, 1058.95625pt x 834.11626pt>
+
+<Pictures/../pictures/727.jpg, id=626, 1058.95625pt x 834.11626pt>
 File: Pictures/../pictures/727.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/727.jpg>
-Package pdftex.def Info: Pictures/../pictures/727.jpg used on input line 152.
+Package pdftex.def Info: Pictures/../pictures/727.jpg used on input line 162.
 (pdftex.def)             Requested size: 333.97972pt x 263.0662pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Pictures/../pictures/728.jpg, id=619, 1049.9225pt x 830.10126pt>
+<Pictures/../pictures/728.jpg, id=628, 1049.9225pt x 830.10126pt>
 File: Pictures/../pictures/728.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/728.jpg>
-Package pdftex.def Info: Pictures/../pictures/728.jpg used on input line 160.
+Package pdftex.def Info: Pictures/../pictures/728.jpg used on input line 170.
 (pdftex.def)             Requested size: 333.97972pt x 264.05453pt.
- [31 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/725.
-jpg> <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/726.
-jpg>]
-<Pictures/../pictures/729.jpg, id=625, 1055.945pt x 832.10875pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Pictures/../pictures/729.jpg, id=630, 1055.945pt x 832.10875pt>
 File: Pictures/../pictures/729.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/729.jpg>
-Package pdftex.def Info: Pictures/../pictures/729.jpg used on input line 168.
+Package pdftex.def Info: Pictures/../pictures/729.jpg used on input line 178.
 (pdftex.def)             Requested size: 333.97972pt x 263.18219pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[32 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/727.j
-pg> <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/728.j
-pg>] <Pictures/../pictures/7210.jpg, id=632, 1055.945pt x 294.09875pt>
+<Pictures/../pictures/7210.jpg, id=632, 1055.945pt x 294.09875pt>
 File: Pictures/../pictures/7210.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/7210.jpg>
-Package pdftex.def Info: Pictures/../pictures/7210.jpg used on input line 179.
+Package pdftex.def Info: Pictures/../pictures/7210.jpg used on input line 189.
 (pdftex.def)             Requested size: 333.97972pt x 93.01854pt.
 
-Overfull \hbox (88.26428pt too wide) in paragraph at lines 176--183
+Overfull \hbox (88.26428pt too wide) in paragraph at lines 186--193
 \OT1/cmr/m/n/10.95 pick any point MAT-LAB func-tions "Win-dow-But-ton-Down-Fcn"
  and "get(handles.mapDraw,'currentpoint')"
  []
 
-[33 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/729.j
-pg> <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/7210.
-jpg>] <Pictures/../pictures/7211.jpg, id=639, 1053.9375pt x 834.11626pt>
+[32 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/726.j
+pg>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Pictures/../pictures/7211.jpg, id=639, 1053.9375pt x 834.11626pt>
 File: Pictures/../pictures/7211.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/7211.jpg>
-Package pdftex.def Info: Pictures/../pictures/7211.jpg used on input line 188.
+Package pdftex.def Info: Pictures/../pictures/7211.jpg used on input line 198.
 (pdftex.def)             Requested size: 333.97972pt x 264.32623pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 <Pictures/../pictures/7212.jpg, id=640, 666.49pt x 470.75874pt>
 File: Pictures/../pictures/7212.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/7212.jpg>
-Package pdftex.def Info: Pictures/../pictures/7212.jpg used on input line 199.
+Package pdftex.def Info: Pictures/../pictures/7212.jpg used on input line 209.
 (pdftex.def)             Requested size: 333.97972pt x 235.90317pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (E:\Developing\Vibot\SE\GIT\SE2013-Report\Thesis\Chapters/Chapter9Versus.tex
-[34 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/7211.
-jpg>] [35 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures
-/7212.jpg>]
+[33 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/727.j
+pg>] [34 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/
+728.jpg> <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/
+729.jpg>] [35 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pict
+ures/7210.jpg> <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pic
+tures/7211.jpg> <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pi
+ctures/7212.jpg>]
 Chapter 8.
 ------------------------------------------------------------------------------
  8 C++ vs MATLAB
@@ -1243,7 +1249,7 @@ a-talia: na-talia.shepel@gmail.com
 
 [38
 
-] <Pictures/../pictures/1.jpg, id=676, 791.20593pt x 626.34pt>
+] <Pictures/../pictures/1.jpg, id=681, 791.20593pt x 626.34pt>
 File: Pictures/../pictures/1.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/1.jpg>
@@ -1251,21 +1257,21 @@ Package pdftex.def Info: Pictures/../pictures/1.jpg used on input line 47.
 (pdftex.def)             Requested size: 333.97972pt x 264.38945pt.
  [39 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/1.jp
 g>]
-<Pictures/../pictures/2.jpg, id=687, 277.035pt x 122.4575pt>
+<Pictures/../pictures/2.jpg, id=692, 277.035pt x 122.4575pt>
 File: Pictures/../pictures/2.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/2.jpg>
 Package pdftex.def Info: Pictures/../pictures/2.jpg used on input line 65.
 (pdftex.def)             Requested size: 333.97972pt x 147.63026pt.
 
-<Pictures/../pictures/3.jpg, id=688, 1054.94125pt x 836.12375pt>
+<Pictures/../pictures/3.jpg, id=693, 1054.94125pt x 836.12375pt>
 File: Pictures/../pictures/3.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/3.jpg>
 Package pdftex.def Info: Pictures/../pictures/3.jpg used on input line 71.
 (pdftex.def)             Requested size: 333.97972pt x 264.69446pt.
 
-<Pictures/../pictures/4.jpg, id=689, 1056.94875pt x 269.005pt>
+<Pictures/../pictures/4.jpg, id=694, 1056.94875pt x 269.005pt>
 File: Pictures/../pictures/4.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/4.jpg>
@@ -1275,7 +1281,7 @@ Package pdftex.def Info: Pictures/../pictures/4.jpg used on input line 77.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Pictures/../pictures/5.jpg, id=691, 1058.95625pt x 834.11626pt>
+<Pictures/../pictures/5.jpg, id=696, 1058.95625pt x 834.11626pt>
 File: Pictures/../pictures/5.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/5.jpg>
@@ -1284,7 +1290,7 @@ Package pdftex.def Info: Pictures/../pictures/5.jpg used on input line 85.
  [40 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/2.jp
 g> <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/3.jpg>
 ]
-<Pictures/../pictures/6.jpg, id=698, 1056.94875pt x 255.95625pt>
+<Pictures/../pictures/6.jpg, id=703, 1056.94875pt x 255.95625pt>
 File: Pictures/../pictures/6.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/6.jpg>
@@ -1294,14 +1300,14 @@ Package pdftex.def Info: Pictures/../pictures/6.jpg used on input line 93.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Pictures/../pictures/7.jpg, id=701, 1052.93375pt x 190.7125pt>
+<Pictures/../pictures/7.jpg, id=706, 1052.93375pt x 190.7125pt>
 File: Pictures/../pictures/7.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/7.jpg>
 Package pdftex.def Info: Pictures/../pictures/7.jpg used on input line 102.
 (pdftex.def)             Requested size: 333.97972pt x 60.49088pt.
 
-<Pictures/../pictures/8.jpg, id=702, 1057.9525pt x 130.4875pt>
+<Pictures/../pictures/8.jpg, id=707, 1057.9525pt x 130.4875pt>
 File: Pictures/../pictures/8.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/8.jpg>
@@ -1310,7 +1316,7 @@ Package pdftex.def Info: Pictures/../pictures/8.jpg used on input line 108.
  [41 <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/4.jp
 g> <E:/Developing/Vibot/SE/GIT/SE2013-Report/Thesis/Pictures/../pictures/5.jpg>
 ]
-<Pictures/../pictures/9.jpg, id=708, 1057.9525pt x 190.7125pt>
+<Pictures/../pictures/9.jpg, id=713, 1057.9525pt x 190.7125pt>
 File: Pictures/../pictures/9.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/9.jpg>
@@ -1320,7 +1326,7 @@ Package pdftex.def Info: Pictures/../pictures/9.jpg used on input line 116.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Pictures/../pictures/10.jpg, id=709, 1058.95625pt x 188.705pt>
+<Pictures/../pictures/10.jpg, id=714, 1058.95625pt x 188.705pt>
 File: Pictures/../pictures/10.jpg Graphic file (type jpg)
 
 <use Pictures/../pictures/10.jpg>
@@ -1361,7 +1367,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 474D165AC6B3E51D06F3BF42A601288E;10059.
+(rerunfilecheck)             Checksum: E6D17E934239CC57A6916637531C9E4B;10247.
 
 
 LaTeX Warning: There were undefined references.
@@ -1369,10 +1375,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 159.
  ) 
 Here is how much of TeX's memory you used:
- 13645 strings out of 493921
- 196030 string characters out of 3147279
+ 13647 strings out of 493921
+ 196053 string characters out of 3147279
  257837 words of memory out of 3000000
- 16494 multiletter control sequences out of 15000+200000
+ 16495 multiletter control sequences out of 15000+200000
  15035 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  49i,11n,45p,976b,429s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1386,9 +1392,9 @@ c/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (50 pages, 6740213 bytes).
+Output written on main.pdf (50 pages, 6742103 bytes).
 PDF statistics:
- 817 PDF objects out of 1000 (max. 8388607)
- 187 named destinations out of 1000 (max. 500000)
- 675 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 822 PDF objects out of 1000 (max. 8388607)
+ 188 named destinations out of 1000 (max. 500000)
+ 683 words of extra memory for PDF output out of 10000 (max. 10000000)
 

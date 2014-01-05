@@ -50,29 +50,30 @@
 \contentsline {subsection}{\numberline {7.1.1}Framework choice}{24}{subsection.68}
 \contentsline {subsection}{\numberline {7.1.2}Basic elements of UI}{24}{subsection.69}
 \contentsline {subsection}{\numberline {7.1.3}Editing the POI database}{25}{subsection.72}
-\contentsline {section}{\numberline {7.2}Matlab}{25}{section.75}
-\contentsline {subsection}{\numberline {7.2.1}MATLAB GUI}{26}{subsection.76}
-\contentsline {subsubsection}{\numberline {7.2.1.1}Creating GUI with GUIDE Layout Editor}{26}{subsubsection.77}
-\contentsline {subsubsection}{\numberline {7.2.1.2}Map Layers Plotting}{30}{subsubsection.83}
-\contentsline {subsubsection}{\numberline {7.2.1.3}Mouse Click And Dots Plotting}{33}{subsubsection.88}
-\contentsline {chapter}{\numberline {8}C++ vs MATLAB}{36}{chapter.92}
-\contentsline {paragraph}{}{36}{section*.93}
+\contentsline {section}{\numberline {7.2}Map rendering in C++}{25}{section.75}
+\contentsline {section}{\numberline {7.3}Matlab}{27}{section.76}
+\contentsline {subsection}{\numberline {7.3.1}MATLAB GUI}{28}{subsection.77}
+\contentsline {subsubsection}{\numberline {7.3.1.1}Creating GUI with GUIDE Layout Editor}{28}{subsubsection.78}
+\contentsline {subsubsection}{\numberline {7.3.1.2}Map Layers Plotting}{31}{subsubsection.84}
+\contentsline {subsubsection}{\numberline {7.3.1.3}Mouse Click And Dots Plotting}{33}{subsubsection.89}
+\contentsline {chapter}{\numberline {8}C++ vs MATLAB}{36}{chapter.93}
 \contentsline {paragraph}{}{36}{section*.94}
 \contentsline {paragraph}{}{36}{section*.95}
 \contentsline {paragraph}{}{36}{section*.96}
 \contentsline {paragraph}{}{36}{section*.97}
-\contentsline {paragraph}{}{37}{section*.98}
+\contentsline {paragraph}{}{36}{section*.98}
 \contentsline {paragraph}{}{37}{section*.99}
-\contentsline {chapter}{\numberline {9}YoMap Matlab User Guide}{38}{chapter.100}
-\contentsline {section}{\numberline {9.1}Introduction}{38}{section.101}
-\contentsline {section}{\numberline {9.2}Getting Started}{38}{section.102}
-\contentsline {section}{\numberline {9.3}Data Entry}{39}{section.111}
-\contentsline {section}{\numberline {9.4}Layers Usage}{41}{section.118}
-\contentsline {section}{\numberline {9.5}Point of Interest Information}{41}{section.120}
-\contentsline {section}{\numberline {9.6}Shortest Path Search}{42}{section.122}
-\contentsline {section}{\numberline {9.7}Shortest Path Search With a Middle Point}{42}{section.125}
-\contentsline {section}{\numberline {9.8}Radius Search}{43}{section.127}
+\contentsline {paragraph}{}{37}{section*.100}
+\contentsline {chapter}{\numberline {9}YoMap Matlab User Guide}{38}{chapter.101}
+\contentsline {section}{\numberline {9.1}Introduction}{38}{section.102}
+\contentsline {section}{\numberline {9.2}Getting Started}{38}{section.103}
+\contentsline {section}{\numberline {9.3}Data Entry}{39}{section.112}
+\contentsline {section}{\numberline {9.4}Layers Usage}{41}{section.119}
+\contentsline {section}{\numberline {9.5}Point of Interest Information}{41}{section.121}
+\contentsline {section}{\numberline {9.6}Shortest Path Search}{42}{section.123}
+\contentsline {section}{\numberline {9.7}Shortest Path Search With a Middle Point}{42}{section.126}
+\contentsline {section}{\numberline {9.8}Radius Search}{43}{section.128}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{44}{appendix.129}
+\contentsline {chapter}{\numberline {A}Appendix Title Here}{44}{appendix.130}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{45}{dummy.130}
+\contentsline {chapter}{Bibliography}{45}{dummy.131}
