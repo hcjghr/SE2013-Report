@@ -12,21 +12,22 @@
 \contentsline {section}{\tocsection {}{2}{title}}{8}
 \contentsline {chapter}{\tocchapter {Chapter}{4}{Plan of implementation}}{9}
 \contentsline {section}{\tocsection {}{1}{MAYBE TIME PLAN?}}{9}
-\contentsline {chapter}{\tocchapter {Chapter}{5}{Databases and data structure}}{10}
-\contentsline {section}{\tocsection {}{1}{Data sources}}{10}
-\contentsline {chapter}{\tocchapter {Chapter}{6}{Path algorithms}}{11}
-\contentsline {section}{\tocsection {}{1}{Street data}}{11}
-\contentsline {section}{\tocsection {}{2}{DB class structure}}{11}
-\contentsline {section}{\tocsection {}{3}{Algorithms - shortest path}}{11}
-\contentsline {subsection}{\tocsubsection {}{3.1}{A*}}{11}
-\contentsline {section}{\tocsection {}{4}{Radius search}}{11}
-\contentsline {section}{\tocsection {}{5}{Bicycle search}}{11}
-\contentsline {chapter}{\tocchapter {Chapter}{7}{GUI}}{12}
-\contentsline {section}{\tocsection {}{1}{C++}}{12}
-\contentsline {subsection}{\tocsubsection {}{1.1}{UI}}{12}
-\contentsline {subsection}{\tocsubsection {}{1.2}{OpenGL}}{12}
-\contentsline {section}{\tocsection {}{2}{Matlab}}{12}
-\contentsline {subsection}{\tocsubsection {}{2.1}{UI}}{12}
-\contentsline {subsection}{\tocsubsection {}{2.2}{library for maps}}{12}
-\contentsline {chapter}{\tocchapter {Chapter}{8}{c++ vs matlab}}{13}
-\contentsline {chapter}{\tocchapter {Chapter}{}{Bibliography}}{14}
+\contentsline {chapter}{\tocchapter {Chapter}{5}{Data}}{10}
+\contentsline {section}{\tocsection {}{1}{Map data}}{10}
+\contentsline {subsection}{\tocsubsection {}{1.1}{Data format}}{10}
+\contentsline {section}{\tocsection {}{2}{Points of Interest (POI)}}{11}
+\contentsline {section}{\tocsection {}{3}{Database}}{12}
+\contentsline {chapter}{\tocchapter {Chapter}{6}{Data structure}}{14}
+\contentsline {chapter}{\tocchapter {Chapter}{7}{Path algorithms}}{17}
+\contentsline {section}{\tocsection {}{1}{A*}}{18}
+\contentsline {section}{\tocsection {}{2}{Radius search}}{18}
+\contentsline {section}{\tocsection {}{3}{Bicycle search}}{18}
+\contentsline {chapter}{\tocchapter {Chapter}{8}{GUI}}{19}
+\contentsline {section}{\tocsection {}{1}{C++}}{19}
+\contentsline {subsection}{\tocsubsection {}{1.1}{UI}}{19}
+\contentsline {subsection}{\tocsubsection {}{1.2}{OpenGL}}{19}
+\contentsline {section}{\tocsection {}{2}{Matlab}}{19}
+\contentsline {subsection}{\tocsubsection {}{2.1}{UI}}{19}
+\contentsline {subsection}{\tocsubsection {}{2.2}{library for maps}}{19}
+\contentsline {chapter}{\tocchapter {Chapter}{9}{c++ vs matlab}}{20}
+\contentsline {chapter}{\tocchapter {Chapter}{}{Bibliography}}{21}

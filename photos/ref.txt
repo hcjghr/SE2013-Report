@@ -1,1 +1,2 @@
 Iterative_development_model_V2.jpg - http://en.wikipedia.org/wiki/Iterative_and_incremental_development
+OSM_flow.jpg - http://wiki.snowflakesoftware.com/display/GLDOC/OpenStreetMap+Data+Overview

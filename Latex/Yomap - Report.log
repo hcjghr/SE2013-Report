@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.10.4)  4 JAN 2014 19:00
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.10.4)  5 JAN 2014 13:06
 entering extended mode
 **Yomap*-*Report.tex
 ("E:\Developing\Vibot\SE\GIT\SE2013-Report\Latex\Yomap - Report.tex"
@@ -473,11 +473,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [0]
 Contents
-("E:\Developing\Vibot\SE\GIT\SE2013-Report\Latex\Yomap - Report.toc")
-\tf@toc=\write4
- [1
+("E:\Developing\Vibot\SE\GIT\SE2013-Report\Latex\Yomap - Report.toc" [1
 
-]
+])
+\tf@toc=\write4
+
 [2]
 Chapter 1
 [3
@@ -510,31 +510,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--210
 
 ]
 Chapter 5
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--214
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--218
+
+ []
+
 [10
 
-]
+] <../photos/OSM_flow.jpg, id=59, 149.05687pt x 188.95593pt>
+File: ../photos/OSM_flow.jpg Graphic file (type jpg)
+
+<use ../photos/OSM_flow.jpg>
+Package pdftex.def Info: ../photos/OSM_flow.jpg used on input line 229.
+(pdftex.def)             Requested size: 89.77824pt x 113.81102pt.
+ [11 <E:/Developing/Vibot/SE/GIT/SE2013-Report/photos/OSM_flow.jpg>]
+Underfull \vbox (badness 2326) has occurred while \output is active []
+
+ [12]
+[13]
 Chapter 6
-[11
+<../photos/ways.png, id=70, 341.3553pt x 297.5115pt>
+File: ../photos/ways.png Graphic file (type png)
+ <use ../photos/ways.png>
+Package pdftex.def Info: ../photos/ways.png used on input line 260.
+(pdftex.def)             Requested size: 130.58098pt x 113.81102pt.
 
-]
+<../photos/Class_Diagram.png, id=72, 496.4949pt x 443.7378pt>
+File: ../photos/Class_Diagram.png Graphic file (type png)
+
+<use ../photos/Class_Diagram.png>
+Package pdftex.def Info: ../photos/Class_Diagram.png used on input line 285.
+(pdftex.def)             Requested size: 127.33559pt x 113.81102pt.
+ [14
+
+ <E:/Developing/Vibot/SE/GIT/SE2013-Report/photos/ways.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+[16 <E:/Developing/Vibot/SE/GIT/SE2013-Report/photos/Class_Diagram.png>]
 Chapter 7
-[12
+
+Underfull \vbox (badness 4316) has occurred while \output is active []
+
+ [17
 
 ]
+[18]
 Chapter 8
-[13
+[19
+
+]
+Chapter 9
+[20
 
 ]
 Bibliography
-[14
+[21
 
 ] ("E:\Developing\Vibot\SE\GIT\SE2013-Report\Latex\Yomap - Report.aux") ) 
 Here is how much of TeX's memory you used:
- 11179 strings out of 493921
- 211642 string characters out of 3147279
- 250037 words of memory out of 3000000
- 14106 multiletter control sequences out of 15000+200000
- 12748 words of font info for 49 fonts, out of 3000000 for 9000
+ 11199 strings out of 493921
+ 212067 string characters out of 3147279
+ 250064 words of memory out of 3000000
+ 14122 multiletter control sequences out of 15000+200000
+ 13095 words of font info for 50 fonts, out of 3000000 for 9000
  1002 hyphenation exceptions out of 8191
  56i,8n,76p,851b,938s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Pr
@@ -545,10 +589,10 @@ onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10
-.pfb>
-Output written on "Yomap - Report.pdf" (16 pages, 148645 bytes).
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "Yomap - Report.pdf" (23 pages, 1339561 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
+ 130 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 42 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

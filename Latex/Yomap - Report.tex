@@ -208,28 +208,117 @@ After having the user requirements, we decided to make the global plan of implem
 \\ Each of was delegated to oversee one of the parts (as shown in figure []). We have to emphasis that this does not mean he/she developed that part by him/herself, not even that he is solely responsible for it. No matter the delegation, we all worked on all parts of the project, either in research, design or implementation stage.
 TODO: ADD IMAGE OF PARTS WITH DELEGATION
 \section{MAYBE TIME PLAN?}
-\chapter{Databases and data structure}
-Our application uses two main types of information. Static map data describing the streets and dynamic data about the different points of interest (POIs). The difference between static and dynamic data lies in the users ability to add and edit POIs data, while the map information is not meant to be changed by the user. \\
+\chapter{Data}
+Our application uses two main types of information. \textit{Static} map data describing the streets and \textit{dynamic} data about the different points of interest (POIs). The difference between static and dynamic data lies in the users ability to add and edit POIs data, while the map information is not meant to be changed by the user. \\
 \\ The acquisition of this data was not the essence of the project, so we were allowed to use any data source, with appropriate licence and collaborate with other groups. 
 \section{Map data}
-Acquisition of map data (street locations, street types, buildings etc.) can be extremely time consuming and can easily produce not really accurate results. At the same time, there is a lot of different open source data avaliable online. Together with the other groups we decided to use OpenStreetMap data by the OpenStreetMap Foundation[].\\
+Acquisition of map data (street locations, street types, buildings etc.) can be extremely time consuming and can easily produce not reliable results. At the same time, there is a lot of different open source data available on-line. Together with the other groups we decided to use OpenStreetMap data by the OpenStreetMap Foundation[].\\
 \\
-OpenStreetMap is an opensource project providing free map information of the world. Data is published under the Open Database License (ODbL) from Open Data Commons (ODC), which enables us to freely produce the works from the database, modify, transform and build upon the database.
-\section{Data format}
-Openstreet maps uses four core elements:
+OpenStreetMap is an open source project providing free map data of the world. Data is published under the \textit{Open Database License (ODbL) from Open Data Commons (ODC)}, which enables us to freely produce the works from the database, modify, transform and build upon the database.
+\subsection{Data format}
+OpenStreetMap data consists of four core elements:
 \begin{itemize}
-\item Nodes - are basic point of location. They consist of longitude and latitude information. They can be used as a single point (POI) or as a list of nodes (way);
+\item Nodes - are basic point of location. They consist of longitude and latitude information. They can be used as a single point (POI) or ia a list of nodes (way);
 \item Ways - ordered list of nodes, representing a street, an area (lake, forest etc.);
 \item Relations - ordered list of nodes and ways which can be in a relation (many roads can be included in a long motorway);
 \item Tags - key-value pairs which are used to store information about different objects (nodes, ways, relations)
 \end{itemize}
-\chapter{Path algorithms}
+Figure \ref{fig:Osm_flow} shows the difference between them.
+\begin{figure}[h]
+\centering
+\includegraphics[height=4cm]{../photos/OSM_flow.jpg}
+\caption{An iterative development model}
+\label{fig:Osm_flow}
+\end{figure}
 
-\section{Street data}
-What did we use...open street map...shot introduction into nodes, relations etc.
-\section{DB class structure}
-\section{Algorithms - shortest path}
-\subsection{A*}
+\section{Points of Interest (POI)}
+One of the main requirements for our application is to enable user to search using different points of interest. For aquisition of this points, all of the groups again collaborated, each marking all the points in part of Le Creusot. For each point we decided to acquire:
+\begin{itemize}
+\item name;
+\item location;
+\item address;
+\item photo.
+\end{itemize}
+In the end we also categorized all the points into 26 different categories. 
+
+\section{Database}
+As described, our data consists of two parts. Static map data and dynamic points of interests data. For the beginning, we were deciding between using relational database and XML based database. With each of them having some benefits, we took during the consideration into account the following facts:
+\begin{itemize}
+\item Most of the data is static - information about the roads in Le Creusot will not change;
+\item Dynamic data will change rarely - user will not often update information about the points of interest;
+\item Relatively small amount of data - Le Creusot is a small city, so there is not a lot of information about the roads. This gives us the opportunity to read all the information to memory at the beginning, reducing the latency caused by queries to the database;
+\item Easiness of install and mobility -  using relational database, requires installation of different software (sql server, connectors, etc.) on the clients computer, which we wanted to avoid. 
+\end{itemize} 
+In the end we decided to use \textbf{XML based database}. We kept the two parts od the data splitted into separate xml files. We kept the OpenStreetMap data in the osm files and created another XML file for POI data. This way, we could easily change th () This separation enables us to easily change either the either map data or the POI data.
+\\ IMAGE OF DB FILES
+\\Using XML based database produced one big disadvantage, which we had to take into account. XML based database is saved in a single file, which does not provide the ability to easily update POI data. Unfortunately, every time we update this data, we have to rewrite the whole file. This can in some occasions be the source of problems, as the writing to the file can be disrupted or cancelled, making the file unusable. However, we do not anticipate the user to update the data frequently, so we took this compromise.
+ 
+ \chapter{Data structure}
+ We have designed out class structure with the A* algorithm for the shortest path and OpenStreetMap (OSM) file structure in mind. We followed the OSM structure, having a basic class called \textbf{Node}. In figure \ref{fig:types_db} we show the different types we use with a small graphic representation.
+ \begin{figure}[h]
+ \centering
+ \includegraphics[height=4cm]{../photos/ways.png}
+ \caption{Different objects in our data structure}
+ \label{fig:types_db}
+ \end{figure}
+  \textbf{Node}
+\\It is used to represent a single point on the map. This can either mark a point of interest (POI), or can be a part of a Relation such as \textit{way segment, building or way}. It contains location information, some A* algorithm informations (weights, visited, etc.) and a vector of Way Segments to which we can access from this Node. This is important expecially for A* algorithm, as it significantly reduce the time needed to find all possible and subsequently the correct next move.
+\\
+\textbf{Way}\\
+Class implemented as in OSM file, to store the properties of each of the ways. It us usually used to represent whole streets, or part of the streets that have the same properties. Each way is assigned a type (primary, secondary, etc.), direction (oneway, bidirectional) and access privilages (private or public).\\
+\textbf{Relation}
+Relation is a base class from which we extend different relations (WaySegment, Building). It only contains a vector of pointers to Nodes that are in one specific relation and type of the relation.\\
+\textbf{WaySegment}
+Way Segment is the base class for our path algorithms. Way segment connects two nodes in a specific direction. This means that if the road between two nodes is bidirectional, we will create two WaySegments, one for each direction. We also have a pointer to an object Way which the road traversing belongs to. This gives us the option of getting information about the road at any time.
+\\
+\textbf{Path Segment}\\
+It is a class that is used to store the result of a \textit{shortest path search}. It contains all the pointers to WaySegment objects we need to traverse in order to get from point A to point B. \\
+\textbf{Path}\\
+Object that contains vector of PathSegment pointers. Path is the end result of any search. If the search is solely path from point A to B, the path is going to have one PathSegment pointer. On the other hand, if we search for intinerary, Path will indluce multiple PathSegments, one for each pair of middle points.
+\\
+\textbf{Database}\\
+Database is an base class for the whole database. It contains functions for correct parsing of XML files and also contains containers \textit{(std::map)} with pointers to each of the class created. We use this to quickly retrieve the classes based on their ID, and to be sure to delete all created objects in the destructor of the class. We also used a boost implementation of a \textit{rtree} data structure to hold all the WaySegment objects to quickly find all the WaySegments in a neighborhood of a point. This is very useful in implementation of finding the closest waySegment.
+\\
+In figure \ref{fig:db_class} we can see the whole class diagram of the database part of the application in C++.
+ \begin{figure}[h]
+ \centering
+ \includegraphics[height=4cm]{../photos/Class_Diagram.png}
+ \caption{Class diagram}
+ \label{fig:db_class}
+ \end{figure}
+
+
+\chapter{Path algorithms}
+Finding the shortest path is one of the main problems in graph theory. It is a problem of finding a path between two nodes, where the sum of edge weights must be minimized. Graph can be undirected, directed or mixed.\\
+The analogy with road maps can be clearly seen, where nodes correspond to intersections and road segments to edges on the graph. To properly represent oneway streets we use directed graph. The weight of each edge can be interpreted as a length of each road segment.\\ There are numerous algorithms that are able to found the shortest path. After initial research we narrowed the possible algorithms to:
+\begin{itemize}
+\item Dijkstra's algorithm
+\item A* search algorithm
+\item Bellman - Ford algorithm
+\item Floyd - Warshall algorithm
+\end{itemize}
+
+From the user requirement analysis (section[]) we were able to identify the three main user requests involving path algorithms:
+\begin{itemize}
+\item find shortest path from point A to point B;
+\item find shortest paths to all points of interest in a certain radius from point A (by foot or by car)
+\item construct an itinerary from point A to B with points of interest in between (with max distance limit)
+\end{itemize}
+
+From identified requests, we can see that all of our path finding problems are actually problems of finding paths between points A and B. This are so-called single-pair shortest path problems. Analysing the algorithms listed above we determined that:
+\begin{itemize}
+\item Floyd - Warshall algorithm finds shortest paths between every pair of nodes in the graph
+\item Dijkstra and Bellman - Ford algorithms find the shortest paths between source node and all other nodes on the graph (Bellman - Ford also permits negative weights)
+\item A* algorithm finds the shortest path between the source and target node. 
+\end{itemize}
+
+All of the above algorithms encapsulate the result we need to find, but differing in how many unnecessary paths are also calculated. This subsequently mean longer calculation time, which we want to avoid. For this reasons we chose \textbf{A* path finding algorithm}.
+
+\section{A*}
+
+
+
+
 \section{Radius search}
 \section{Bicycle search}
 \chapter{GUI}
