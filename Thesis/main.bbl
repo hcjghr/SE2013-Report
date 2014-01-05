@@ -1,4 +1,4 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{5}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -21,5 +21,17 @@ Openstreetmap data overview.
 Openstreetmap fundation.
 \newblock 2014{\natexlab{b}}.
 \newblock URL \url{http://wiki.osmfoundation.org/wiki/Main_Page}.
+
+\bibitem[not(2014)]{notmagi}
+Notmagi.me.
+\newblock 2014.
+\newblock URL
+  \url{http://notmagi.me/closest-point-on-line-aabb-and-obb-to-point/}.
+
+\bibitem[mat(2014)]{matlab1}
+Matlab - vectorization.
+\newblock 2014.
+\newblock URL
+  \url{http://www.mathworks.fr/fr/help/matlab/matlab_prog/vectorization.html}.
 
 \end{thebibliography}

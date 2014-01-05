@@ -1,11 +1,22 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces An iterative development model (image taken from \cite {wiki1})\relax }}{2}{figure.caption.9}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces An iterative development model (image taken from \cite {wiki1})\relax }}{2}{figure.caption.7}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Use case diagram\relax }}{6}{figure.caption.19}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Use case diagram\relax }}{6}{figure.caption.17}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Representation of basic OSM elements (image taken from \cite {osm_2})\relax }}{8}{figure.caption.25}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Representation of basic OSM elements (image taken from \cite {osm_2})\relax }}{8}{figure.caption.23}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Different objects in our data structure\relax }}{10}{figure.caption.31}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Class diagram\relax }}{12}{figure.caption.40}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Different objects in our data structure\relax }}{10}{figure.caption.29}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Class diagram\relax }}{12}{figure.caption.38}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Snapping user point to border nodes (left,right) and snapping to perpendicular point where possible\relax }}{15}{figure.caption.43}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Diagram of finding the closest WaySegment\relax }}{16}{figure.caption.45}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Activity diagram of finding the shortest path between point A and B\relax }}{17}{figure.caption.48}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Result of the search for the shortest path as seen by the user in C++\relax }}{18}{figure.caption.50}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Result of the search for the shortest path as seen by the user in Matlab\relax }}{18}{figure.caption.51}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Activity diagram of finding radius search between point A and POIs of specific categories\relax }}{19}{figure.caption.53}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Result of the radius search as seen by the user in C++\relax }}{20}{figure.caption.55}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Activity diagram of finding shortest path from A to B through POIs of specific categories\relax }}{21}{figure.caption.58}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Result of the itinerary search as seen by the user in C++\relax }}{22}{figure.caption.60}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Result of the itinerary search as seen by the user in Matlab\relax }}{22}{figure.caption.62}
 \addvspace {10\p@ }
